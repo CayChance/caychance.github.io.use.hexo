@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/404.html</loc>
+    
+    <lastmod>2018-11-29T02:32:24.582Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/11/29/flex%E5%B8%83%E5%B1%80/</loc>
+    
+    <lastmod>2018-11-29T02:32:07.099Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2018-11-29T02:32:07.097Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2018/11/28/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A/</loc>
     
     <lastmod>2018-11-28T09:20:41.558Z</lastmod>
@@ -9,30 +30,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/11/29/flex%E5%B8%83%E5%B1%80/</loc>
-    
-    <lastmod>2018-11-28T09:20:41.553Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/404.html</loc>
-    
-    <lastmod>2018-11-27T12:34:59.251Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/search/index.html</loc>
     
     <lastmod>2018-11-27T12:34:22.179Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2018-11-27T12:33:51.058Z</lastmod>
     
   </url>
   
