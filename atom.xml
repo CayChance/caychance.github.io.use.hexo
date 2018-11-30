@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-29T02:32:07.099Z</updated>
+  <updated>2018-11-30T03:28:38.872Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,19 +17,46 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>flex布局</title>
-    <link href="http://yoursite.com/2018/11/29/flex%E5%B8%83%E5%B1%80/"/>
-    <id>http://yoursite.com/2018/11/29/flex布局/</id>
-    <published>2018-11-28T17:06:01.000Z</published>
-    <updated>2018-11-29T02:32:07.099Z</updated>
+    <title>函数参数的解构赋值和函数参数的默认值</title>
+    <link href="http://yoursite.com/2018/11/30/%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0%E7%9A%84%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC%E5%92%8C%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0%E7%9A%84%E9%BB%98%E8%AE%A4%E5%80%BC/"/>
+    <id>http://yoursite.com/2018/11/30/函数参数的解构赋值和函数参数的默认值/</id>
+    <published>2018-11-30T10:58:47.000Z</published>
+    <updated>2018-11-30T03:28:38.872Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="今天发现一个flex的问题"><a href="#今天发现一个flex的问题" class="headerlink" title="今天发现一个flex的问题"></a>今天发现一个flex的问题</h2><p>flex布局中的justify-content: space-evenly;在部分安卓手机上是不支持这个属性的。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">justify-content: space-evenly</span><br></pre></td></tr></table></figure><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>可以使用space-around或者space-between配合margin一起使用达到space-evenly的效果</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">justify-content: space-around</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">justify-content: space-between</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>##es6中函数参数的解构赋值和函数参数的默认值</p><p>昨天在二刷阮一峰es6的时候，看到了一个思考题。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">// 写法一</span><br><span class="line">function m1(&#123;x = 0, y = 0&#125; = &#123;&#125;) &#123;</span><br><span class="line">  return [x, y];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">// 写法二</span><br><span class="line">function m2(&#123;x, y&#125; = &#123; x: 0, y: 0 &#125;) &#123;</span><br><span class="line">  return [x, y];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>以上两种写法的差异在哪里？</p><p>写法一中m1函数的入参是一个对象（默认值为一个空对象），该对象有两个属性，x（默认值为0）和y（默认值为0）。</p><p>写法二中m2函数的入参是一个对象（默认值为一个对象，对象x和y属性都为0）。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">// 函数没有参数的情况</span><br><span class="line">m1() // [0, 0]</span><br><span class="line">m2() // [0, 0]</span><br><span class="line"></span><br><span class="line">// x 和 y 都有值的情况</span><br><span class="line">m1(&#123;x: 3, y: 8&#125;) // [3, 8]</span><br><span class="line">m2(&#123;x: 3, y: 8&#125;) // [3, 8]</span><br><span class="line"></span><br><span class="line">// x 有值，y 无值的情况</span><br><span class="line">m1(&#123;x: 3&#125;) // [3, 0]</span><br><span class="line">m2(&#123;x: 3&#125;) // [3, undefined]</span><br><span class="line"></span><br><span class="line">// x 和 y 都无值的情况</span><br><span class="line">m1(&#123;&#125;) // [0, 0];</span><br><span class="line">m2(&#123;&#125;) // [undefined, undefined]</span><br><span class="line"></span><br><span class="line">m1(&#123;z: 3&#125;) // [0, 0]</span><br><span class="line">m2(&#123;z: 3&#125;) // [undefined, undefined]</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;今天发现一个flex的问题&quot;&gt;&lt;a href=&quot;#今天发现一个flex的问题&quot; class=&quot;headerlink&quot; title=&quot;今天发现一个flex的问题&quot;&gt;&lt;/a&gt;今天发现一个flex的问题&lt;/h2&gt;&lt;p&gt;flex布局中的justify-content: s
+        &lt;p&gt;##es6中函数参数的解构赋值和函数参数的默认值&lt;/p&gt;
+&lt;p&gt;昨天在二刷阮一峰es6的时候，看到了一个思考题。&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span cla
+      
+    
+    </summary>
+    
+      <category term="es6" scheme="http://yoursite.com/categories/es6/"/>
+    
+    
+      <category term="解构  函数参数默认值" scheme="http://yoursite.com/tags/%E8%A7%A3%E6%9E%84-%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0%E9%BB%98%E8%AE%A4%E5%80%BC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>flex布局</title>
+    <link href="http://yoursite.com/2018/11/29/flex%E5%B8%83%E5%B1%80/"/>
+    <id>http://yoursite.com/2018/11/29/flex布局/</id>
+    <published>2018-11-28T17:06:01.000Z</published>
+    <updated>2018-11-30T03:28:09.672Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="今天发现一个flex的问题"><a href="#今天发现一个flex的问题" class="headerlink" title="今天发现一个flex的问题"></a>今天发现一个flex的问题</h3><p>flex布局中的justify-content: space-evenly;在部分安卓手机上是不支持这个属性的。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">justify-content: space-evenly</span><br></pre></td></tr></table></figure><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>可以使用space-around或者space-between配合margin一起使用达到space-evenly的效果</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">justify-content: space-around</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">justify-content: space-between</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;今天发现一个flex的问题&quot;&gt;&lt;a href=&quot;#今天发现一个flex的问题&quot; class=&quot;headerlink&quot; title=&quot;今天发现一个flex的问题&quot;&gt;&lt;/a&gt;今天发现一个flex的问题&lt;/h3&gt;&lt;p&gt;flex布局中的justify-content: s
       
     
     </summary>
@@ -46,7 +73,7 @@
     <link href="http://yoursite.com/2018/11/28/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A/"/>
     <id>http://yoursite.com/2018/11/28/异步编程的前世今/</id>
     <published>2018-11-27T18:20:25.000Z</published>
-    <updated>2018-11-28T09:20:41.558Z</updated>
+    <updated>2018-11-30T03:27:16.910Z</updated>
     
     <content type="html"><![CDATA[<p>一、问题起源：因为JS只有一根线程，因此异步编程对JS很重要。</p><p>二、目的：异步编程的语法目标，就是怎样让它更像同步编程。</p><p>三、很久很久以前：异步编程的方法有四种：</p><p>  1、回调函数；</p><p>  2、事件监听；</p><p>  3、发布/订阅；</p><p>  4、Promise对象。</p><p>四、回调函数的故事：</p><p>  1、概念：JS对异步编程的实现就是回调函数。所谓回调函数，就是把任务的第二段单独写在一个函数里面，等到重新执行这个任务的时候，就直接调用这个函数。</p><p>  2、局限性：回调函数本身没有问题，但是多个回调函数嵌套的时候就会有问题。会导致代码横向发展，而不是纵向发展。称之为回调地狱。</p><p>  3、解决之道：为了解决该问题，Promise诞生了，它不是新的语法功能，而是一种新的写法，允许将回调函数的横向加载改为纵向加载。</p><p>  4、改进的地方：Promise 的写法只是回调函数的改进，使用then方法以后，异步任务的两段执行看得更清楚了，除此以外，并无新意。</p><p>  5、新面临的问题：然后，Promise也面临一个巨大的问题，代码冗余，原来的任务被Promise包装一下，一眼看去都是一堆then，语义变的不清楚。</p><p>五、协程的故事：</p><p>  1、概念：传统的编程语言，早有异步编程的解决方案（其实是多任务的解决方案）。其中有一种叫做”协程”（coroutine），意思是多个线程互相协作，完成异步任务。</p><p>  2、本质：协程的终极奥义就在于yield命令，它表示执行到此处，执行权将交给其他协程。即yield命令是异步两个阶段的分界线。</p><p>  3、协程在ES6中的衍生及其特点：于是乎，Generator函数诞生了。它是协程在ES6中的实现，其最大特点就是可以交出函数的执行权，即暂停执行。整个 Generator 函数就是一个封装的异步任务，或者说是异步任务的容器。异步操作需要暂停的地方，都用 yield 语句注明。</p><p>  4、Generator的另外两个特性：Generator 函数可以暂停执行和恢复执行，这是它能封装异步任务的根本原因。除此之外，它还有两个特性，使它可以作为异步编程的完整解决方案：函数体内外的数据交换和错误处理机制。</p><p>  5、函数体内外数据交换：next 方法返回值的 value 属性，是 Generator 函数向外输出数据；next 方法还可以接受参数，这是向 Generator 函数体内输入数据。</p><p>  6、错误处理机制：Generator 函数内部还可以部署错误处理代码，捕获函数体外抛出的错误。</p><p>  7、Generator函数的局限：</p><p>  7.1不能自动执行</p><p>  7.2程序的执行权移出以后，需要再次交换回来。</p><p>  综上所述：Generator 函数就是一个异步操作的容器。它的自动执行需要一种机制（即自动执行器），当异步操作有了结果，能够自动交回执行权</p><p>  8、两种解决之道：由于Generator函数中的yield 命令用于将程序的执行权移出 Generator 函数，那么就需要一种方法，将执行权再交还给 Generator 函数。</p><p>  基于Thunk函数的自动执行器：回调函数。将异步操作包装成 Thunk 函数，在回调函数里面交回执行权。</p><p>  基于Promise对象的自动执行器：Promise 对象。将异步操作包装成 Promise 对象，用 then 方法交回执行权。</p><p>  9、co函数库，用于Generator函数的自动执行。它可以使你不用编写Generator函数的执行器。其原理就是将两种自动执行器（Thunk 函数和 Promise 对象），包装成一个库。使用 co 的前提条件是，Generator 函数的 yield 命令后面，只能是 Thunk 函数或 Promise 对象。</p><p>六、异步编程的终极解决之道：async函数</p><p>  1、概念：一句话，async函数就是Generator函数的语法糖。</p><p>  2、改进点：async函数对Generator函数的改进体现在以下几点：</p><p>  2.1内置执行器</p><p>  Generator 函数的执行必须靠执行器，所以才有了 co 函数库，而 async 函数自带执行器。也就是说，async 函数的执行，与普通函数一模一样，只要一行。</p><p>  2.2更好的语义</p><p>  async 和 await，比起星号和 yield，语义更清楚了。async 表示函数里有异步操作，await 表示紧跟在后面的表达式需要等待结果。</p><p>  2.3更广的适用性</p><p>  co 函数库约定，yield 命令后面只能是 Thunk 函数或 Promise 对象，而 async 函数的 await 命令后面，可以跟 Promise 对象和原始类型的值（数值、字符串和布尔值，但这时等同于同步操作）。所以，async函数的实现，就是把Generator函数和自动执行器包装在一个函数里。</p><p>  2.4返回值是Promise</p><p>  async函数的返回值是 Promise 对象。</p><p>  3、使用手册说明：</p><p>  3.1await命令后面的Promise对象，运行结果可能是rejected，所以最好把await命令放在try…catch中。</p><p>  3.2await命令只能用在async函数中，如果用在普通函数中，就会报错。</p><p>  3.3如有多个请求并发执行，请使用Promise.all方法。</p>]]></content>
     
