@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-30T03:28:38.872Z</updated>
+  <updated>2018-11-30T03:31:28.236Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/11/30/%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0%E7%9A%84%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC%E5%92%8C%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0%E7%9A%84%E9%BB%98%E8%AE%A4%E5%80%BC/"/>
     <id>http://yoursite.com/2018/11/30/函数参数的解构赋值和函数参数的默认值/</id>
     <published>2018-11-30T10:58:47.000Z</published>
-    <updated>2018-11-30T03:28:38.872Z</updated>
+    <updated>2018-11-30T03:31:28.236Z</updated>
     
     <content type="html"><![CDATA[<p>##es6中函数参数的解构赋值和函数参数的默认值</p><p>昨天在二刷阮一峰es6的时候，看到了一个思考题。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">// 写法一</span><br><span class="line">function m1(&#123;x = 0, y = 0&#125; = &#123;&#125;) &#123;</span><br><span class="line">  return [x, y];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">// 写法二</span><br><span class="line">function m2(&#123;x, y&#125; = &#123; x: 0, y: 0 &#125;) &#123;</span><br><span class="line">  return [x, y];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>以上两种写法的差异在哪里？</p><p>写法一中m1函数的入参是一个对象（默认值为一个空对象），该对象有两个属性，x（默认值为0）和y（默认值为0）。</p><p>写法二中m2函数的入参是一个对象（默认值为一个对象，对象x和y属性都为0）。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">// 函数没有参数的情况</span><br><span class="line">m1() // [0, 0]</span><br><span class="line">m2() // [0, 0]</span><br><span class="line"></span><br><span class="line">// x 和 y 都有值的情况</span><br><span class="line">m1(&#123;x: 3, y: 8&#125;) // [3, 8]</span><br><span class="line">m2(&#123;x: 3, y: 8&#125;) // [3, 8]</span><br><span class="line"></span><br><span class="line">// x 有值，y 无值的情况</span><br><span class="line">m1(&#123;x: 3&#125;) // [3, 0]</span><br><span class="line">m2(&#123;x: 3&#125;) // [3, undefined]</span><br><span class="line"></span><br><span class="line">// x 和 y 都无值的情况</span><br><span class="line">m1(&#123;&#125;) // [0, 0];</span><br><span class="line">m2(&#123;&#125;) // [undefined, undefined]</span><br><span class="line"></span><br><span class="line">m1(&#123;z: 3&#125;) // [0, 0]</span><br><span class="line">m2(&#123;z: 3&#125;) // [undefined, undefined]</span><br></pre></td></tr></table></figure>]]></content>
     
