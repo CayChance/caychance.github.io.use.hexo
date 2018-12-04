@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-30T08:41:37.440Z</updated>
+  <updated>2018-12-04T05:03:48.081Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,77 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>github没有记录你的contributions?</title>
+    <link href="http://yoursite.com/2018/12/04/github%E6%B2%A1%E6%9C%89%E8%AE%B0%E5%BD%95%E4%BD%A0%E7%9A%84contributions/"/>
+    <id>http://yoursite.com/2018/12/04/github没有记录你的contributions/</id>
+    <published>2018-12-04T10:51:31.000Z</published>
+    <updated>2018-12-04T05:03:48.081Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="github是怎么计算contributions的呢？"><a href="#github是怎么计算contributions的呢？" class="headerlink" title="github是怎么计算contributions的呢？"></a>github是怎么计算contributions的呢？</h2><blockquote><h4 id="贡献的计算"><a href="#贡献的计算" class="headerlink" title="贡献的计算"></a>贡献的计算</h4><h5 id="Issues-and-pull请求"><a href="#Issues-and-pull请求" class="headerlink" title="Issues and pull请求"></a>Issues and pull请求</h5><p>   如果issues和pull请求是在独立库中打开而不是分叉（fork），它们将显示在您的贡献图上。</p><h5 id="Commits"><a href="#Commits" class="headerlink" title="Commits"></a>Commits</h5><p>   如果commits符合以下所有的条件，那么会在您的贡献图上有所显示。<br>   1.用于提交的电子邮件地址与您的GitHub帐户相关联。<br>   2.在独立的库中进行提交的，而不是分支（fork）。<br>   3.提交内容如下：<br>   &emsp;在库的默认分支。（通常是master分支）。<br>   &emsp;在gh-pages分支中（对于具有Project Pages站点的库）。</p></blockquote><p><a href="https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile/" target="_blank" rel="noopener">参考</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;github是怎么计算contributions的呢？&quot;&gt;&lt;a href=&quot;#github是怎么计算contributions的呢？&quot; class=&quot;headerlink&quot; title=&quot;github是怎么计算contributions的呢？&quot;&gt;&lt;/a&gt;githu
+      
+    
+    </summary>
+    
+      <category term="工具" scheme="http://yoursite.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="github" scheme="http://yoursite.com/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>服务端渲染vs客户端渲染</title>
+    <link href="http://yoursite.com/2018/12/03/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%B8%B2%E6%9F%93vs%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%B8%B2%E6%9F%93/"/>
+    <id>http://yoursite.com/2018/12/03/服务端渲染vs客户端渲染/</id>
+    <published>2018-12-02T22:25:08.000Z</published>
+    <updated>2018-12-04T05:10:06.148Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="服务端渲染VS客户端渲染"><a href="#服务端渲染VS客户端渲染" class="headerlink" title="服务端渲染VS客户端渲染"></a>服务端渲染VS客户端渲染</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;服务端渲染VS客户端渲染&quot;&gt;&lt;a href=&quot;#服务端渲染VS客户端渲染&quot; class=&quot;headerlink&quot; title=&quot;服务端渲染VS客户端渲染&quot;&gt;&lt;/a&gt;服务端渲染VS客户端渲染&lt;/h3&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>跨域之http-proxy-middleware</title>
+    <link href="http://yoursite.com/2018/12/03/%E8%B7%A8%E5%9F%9F%E4%B9%8Bhttp-proxy-middleware/"/>
+    <id>http://yoursite.com/2018/12/03/跨域之http-proxy-middleware/</id>
+    <published>2018-12-02T22:20:50.000Z</published>
+    <updated>2018-12-04T05:10:06.152Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="跨域" scheme="http://yoursite.com/categories/%E8%B7%A8%E5%9F%9F/"/>
+    
+    
+      <category term="http-proxy-middleware" scheme="http://yoursite.com/tags/http-proxy-middleware/"/>
+    
+  </entry>
+  
+  <entry>
     <title>label标签语义化</title>
     <link href="http://yoursite.com/2018/12/01/label%E6%A0%87%E7%AD%BE%E8%AF%AD%E4%B9%89%E5%8C%96/"/>
     <id>http://yoursite.com/2018/12/01/label标签语义化/</id>
     <published>2018-11-30T16:17:03.000Z</published>
-    <updated>2018-11-30T08:41:37.440Z</updated>
+    <updated>2018-11-30T09:04:50.848Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="label标签的语义化"><a href="#label标签的语义化" class="headerlink" title="label标签的语义化"></a>label标签的语义化</h2><p>今天做一个问卷调研的需求的时候，如下图。用户点击A选项的文字的时候被选中，而不是只能点击A前面的圆圈的时候。</p><p><img src="https://ws4.sinaimg.cn/large/006tNbRwly1fxq5xd2ppyj30j20dyjtt.jpg" alt=""></p><p>html部分，需要使用input+label标签，其中label的for属性和input的id属性使用同一个变量。如下图：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type=&quot;radio&quot; :id=&quot;subItem&quot; class=&quot;checkbox&quot; v-model=&quot;answers[index]&quot;&gt;</span><br><span class="line">&lt;label :for=&quot;subItem&quot;&gt;&#123;&#123;subItem&#125;&#125;&lt;/label&gt;</span><br></pre></td></tr></table></figure><p>刚开始用的p标签，一直不好使。后来解决了以后，去搜了一下label标签的语义化</p><blockquote><p>   <label> 标签为 input 元素定义标注（标记）。<br>     label 元素不会向用户呈现任何特殊效果。不过，它为鼠标用户改进了可用性。<br>     如果您在 label 元素内点击文本，就会触发此控件。<br>     就是说，当用户选择该标签时，浏览器就会自动将焦点转到和标签相关的表单控件上。<br>     <label> 标签的 for 属性应当与相关元素的 id 属性相同。</label></label></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h2 id="label标签的语义化"><a href="#label标签的语义化" class="headerlink" title="label标签的语义化"></a>label标签的语义化</h2><p>今天做一个问卷调研的需求的时候，如下图。用户点击A选项的文字的时候被选中，而不是只能点击A前面的圆圈的时候。</p><p><img src="https://ws4.sinaimg.cn/large/006tNbRwly1fxq5xd2ppyj30j20dyjtt.jpg" alt=""></p><p>html部分，需要使用input+label标签，其中label的for属性和input的id属性使用同一个变量。如下图：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"radio"</span> <span class="attr">:id</span>=<span class="string">"subItem"</span> <span class="attr">class</span>=<span class="string">"checkbox"</span> <span class="attr">v-model</span>=<span class="string">"answers[index]"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">label</span> <span class="attr">:for</span>=<span class="string">"subItem"</span>&gt;</span>&#123;&#123;subItem&#125;&#125;<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br></pre></td></tr></table></figure><p>刚开始用的p标签，一直不好使。后来解决了以后，去搜了一下label标签的语义化</p><blockquote><p>   <label> 标签为 input 元素定义标注（标记）。<br>     label 元素不会向用户呈现任何特殊效果。不过，它为鼠标用户改进了可用性。<br>     如果您在 label 元素内点击文本，就会触发此控件。<br>     就是说，当用户选择该标签时，浏览器就会自动将焦点转到和标签相关的表单控件上。<br>     <label> 标签的 for 属性应当与相关元素的 id 属性相同。</label></label></p></blockquote>]]></content>
     
     <summary type="html">
     
@@ -44,9 +108,9 @@
     <link href="http://yoursite.com/2018/11/30/%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0%E7%9A%84%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC%E5%92%8C%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0%E7%9A%84%E9%BB%98%E8%AE%A4%E5%80%BC/"/>
     <id>http://yoursite.com/2018/11/30/函数参数的解构赋值和函数参数的默认值/</id>
     <published>2018-11-30T10:58:47.000Z</published>
-    <updated>2018-11-30T03:32:21.545Z</updated>
+    <updated>2018-11-30T09:08:52.695Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="es6中函数参数的解构赋值和函数参数的默认值"><a href="#es6中函数参数的解构赋值和函数参数的默认值" class="headerlink" title="es6中函数参数的解构赋值和函数参数的默认值"></a>es6中函数参数的解构赋值和函数参数的默认值</h2><p>昨天在二刷阮一峰es6的时候，看到了一个思考题。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">// 写法一</span><br><span class="line">function m1(&#123;x = 0, y = 0&#125; = &#123;&#125;) &#123;</span><br><span class="line">  return [x, y];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">// 写法二</span><br><span class="line">function m2(&#123;x, y&#125; = &#123; x: 0, y: 0 &#125;) &#123;</span><br><span class="line">  return [x, y];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>以上两种写法的差异在哪里？</p><p>写法一中m1函数的入参是一个对象（默认值为一个空对象），该对象有两个属性，x（默认值为0）和y（默认值为0）。</p><p>写法二中m2函数的入参是一个对象（默认值为一个对象，对象x和y属性都为0）。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">// 函数没有参数的情况</span><br><span class="line">m1() // [0, 0]</span><br><span class="line">m2() // [0, 0]</span><br><span class="line"></span><br><span class="line">// x 和 y 都有值的情况</span><br><span class="line">m1(&#123;x: 3, y: 8&#125;) // [3, 8]</span><br><span class="line">m2(&#123;x: 3, y: 8&#125;) // [3, 8]</span><br><span class="line"></span><br><span class="line">// x 有值，y 无值的情况</span><br><span class="line">m1(&#123;x: 3&#125;) // [3, 0]</span><br><span class="line">m2(&#123;x: 3&#125;) // [3, undefined]</span><br><span class="line"></span><br><span class="line">// x 和 y 都无值的情况</span><br><span class="line">m1(&#123;&#125;) // [0, 0];</span><br><span class="line">m2(&#123;&#125;) // [undefined, undefined]</span><br><span class="line"></span><br><span class="line">m1(&#123;z: 3&#125;) // [0, 0]</span><br><span class="line">m2(&#123;z: 3&#125;) // [undefined, undefined]</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="es6中函数参数的解构赋值和函数参数的默认值"><a href="#es6中函数参数的解构赋值和函数参数的默认值" class="headerlink" title="es6中函数参数的解构赋值和函数参数的默认值"></a>es6中函数参数的解构赋值和函数参数的默认值</h2><p>昨天在二刷阮一峰es6的时候，看到了一个思考题。</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 写法一</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">m1</span>(<span class="params">&#123;x = <span class="number">0</span>, y = <span class="number">0</span>&#125; = &#123;&#125;</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> [x, y];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 写法二</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">m2</span>(<span class="params">&#123;x, y&#125; = &#123; x: <span class="number">0</span>, y: <span class="number">0</span> &#125;</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> [x, y];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>以上两种写法的差异在哪里？</p><p>写法一中m1函数的入参是一个对象（默认值为一个空对象），该对象有两个属性，x（默认值为0）和y（默认值为0）。</p><p>写法二中m2函数的入参是一个对象（默认值为一个对象，对象x和y属性都为0）。</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 函数没有参数的情况</span></span><br><span class="line">m1() <span class="comment">// [0, 0]</span></span><br><span class="line">m2() <span class="comment">// [0, 0]</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// x 和 y 都有值的情况</span></span><br><span class="line">m1(&#123;<span class="attr">x</span>: <span class="number">3</span>, <span class="attr">y</span>: <span class="number">8</span>&#125;) <span class="comment">// [3, 8]</span></span><br><span class="line">m2(&#123;<span class="attr">x</span>: <span class="number">3</span>, <span class="attr">y</span>: <span class="number">8</span>&#125;) <span class="comment">// [3, 8]</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// x 有值，y 无值的情况</span></span><br><span class="line">m1(&#123;<span class="attr">x</span>: <span class="number">3</span>&#125;) <span class="comment">// [3, 0]</span></span><br><span class="line">m2(&#123;<span class="attr">x</span>: <span class="number">3</span>&#125;) <span class="comment">// [3, undefined]</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// x 和 y 都无值的情况</span></span><br><span class="line">m1(&#123;&#125;) <span class="comment">// [0, 0];</span></span><br><span class="line">m2(&#123;&#125;) <span class="comment">// [undefined, undefined]</span></span><br><span class="line"></span><br><span class="line">m1(&#123;<span class="attr">z</span>: <span class="number">3</span>&#125;) <span class="comment">// [0, 0]</span></span><br><span class="line">m2(&#123;<span class="attr">z</span>: <span class="number">3</span>&#125;) <span class="comment">// [undefined, undefined]</span></span><br></pre></td></tr></table></figure><p><a href="http://es6.ruanyifeng.com/#docs/function" target="_blank" rel="noopener">参考链接-阮一峰es6</a></p>]]></content>
     
     <summary type="html">
     
@@ -65,34 +129,13 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/11/30/hello-world/"/>
-    <id>http://yoursite.com/2018/11/30/hello-world/</id>
-    <published>2018-11-30T08:43:05.140Z</published>
-    <updated>2018-11-30T08:43:05.140Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>flex布局</title>
     <link href="http://yoursite.com/2018/11/29/flex%E5%B8%83%E5%B1%80/"/>
     <id>http://yoursite.com/2018/11/29/flex布局/</id>
     <published>2018-11-28T17:06:01.000Z</published>
-    <updated>2018-11-30T08:16:07.709Z</updated>
+    <updated>2018-11-30T09:04:50.852Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="今天发现一个flex的问题"><a href="#今天发现一个flex的问题" class="headerlink" title="今天发现一个flex的问题"></a>今天发现一个flex的问题</h3><p>flex布局中的justify-content: space-evenly;在部分安卓手机上是不支持这个属性的。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">justify-content: space-evenly</span><br></pre></td></tr></table></figure><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>可以使用space-around或者space-between配合margin一起使用达到space-evenly的效果</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">justify-content: space-around</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">justify-content: space-between</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h3 id="今天发现一个flex的问题"><a href="#今天发现一个flex的问题" class="headerlink" title="今天发现一个flex的问题"></a>今天发现一个flex的问题</h3><p>flex布局中的justify-content: space-evenly;在部分安卓手机上是不支持这个属性的。</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">justify-content</span>: <span class="selector-tag">space-evenly</span></span><br></pre></td></tr></table></figure><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>可以使用space-around或者space-between配合margin一起使用达到space-evenly的效果</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">justify-content</span>: <span class="selector-tag">space-around</span></span><br></pre></td></tr></table></figure><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">justify-content</span>: <span class="selector-tag">space-between</span></span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
@@ -115,9 +158,9 @@
     <link href="http://yoursite.com/2018/11/28/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A/"/>
     <id>http://yoursite.com/2018/11/28/异步编程的前世今/</id>
     <published>2018-11-27T18:20:25.000Z</published>
-    <updated>2018-11-30T08:40:19.413Z</updated>
+    <updated>2018-11-30T09:09:15.028Z</updated>
     
-    <content type="html"><![CDATA[<p>一、问题起源：因为JS只有一根线程，因此异步编程对JS很重要。</p><p>二、目的：异步编程的语法目标，就是怎样让它更像同步编程。</p><p>三、很久很久以前：异步编程的方法有四种：</p><p>  1、回调函数；</p><p>  2、事件监听；</p><p>  3、发布/订阅；</p><p>  4、Promise对象。</p><p>四、回调函数的故事：</p><p>  1、概念：JS对异步编程的实现就是回调函数。所谓回调函数，就是把任务的第二段单独写在一个函数里面，等到重新执行这个任务的时候，就直接调用这个函数。</p><p>  2、局限性：回调函数本身没有问题，但是多个回调函数嵌套的时候就会有问题。会导致代码横向发展，而不是纵向发展。称之为回调地狱。</p><p>  3、解决之道：为了解决该问题，Promise诞生了，它不是新的语法功能，而是一种新的写法，允许将回调函数的横向加载改为纵向加载。</p><p>  4、改进的地方：Promise 的写法只是回调函数的改进，使用then方法以后，异步任务的两段执行看得更清楚了，除此以外，并无新意。</p><p>  5、新面临的问题：然后，Promise也面临一个巨大的问题，代码冗余，原来的任务被Promise包装一下，一眼看去都是一堆then，语义变的不清楚。</p><p>五、协程的故事：</p><p>  1、概念：传统的编程语言，早有异步编程的解决方案（其实是多任务的解决方案）。其中有一种叫做”协程”（coroutine），意思是多个线程互相协作，完成异步任务。</p><p>  2、本质：协程的终极奥义就在于yield命令，它表示执行到此处，执行权将交给其他协程。即yield命令是异步两个阶段的分界线。</p><p>  3、协程在ES6中的衍生及其特点：于是乎，Generator函数诞生了。它是协程在ES6中的实现，其最大特点就是可以交出函数的执行权，即暂停执行。整个 Generator 函数就是一个封装的异步任务，或者说是异步任务的容器。异步操作需要暂停的地方，都用 yield 语句注明。</p><p>  4、Generator的另外两个特性：Generator 函数可以暂停执行和恢复执行，这是它能封装异步任务的根本原因。除此之外，它还有两个特性，使它可以作为异步编程的完整解决方案：函数体内外的数据交换和错误处理机制。</p><p>  5、函数体内外数据交换：next 方法返回值的 value 属性，是 Generator 函数向外输出数据；next 方法还可以接受参数，这是向 Generator 函数体内输入数据。</p><p>  6、错误处理机制：Generator 函数内部还可以部署错误处理代码，捕获函数体外抛出的错误。</p><p>  7、Generator函数的局限：</p><p>  7.1不能自动执行</p><p>  7.2程序的执行权移出以后，需要再次交换回来。</p><p>  综上所述：Generator 函数就是一个异步操作的容器。它的自动执行需要一种机制（即自动执行器），当异步操作有了结果，能够自动交回执行权</p><p>  8、两种解决之道：由于Generator函数中的yield 命令用于将程序的执行权移出 Generator 函数，那么就需要一种方法，将执行权再交还给 Generator 函数。</p><p>  基于Thunk函数的自动执行器：回调函数。将异步操作包装成 Thunk 函数，在回调函数里面交回执行权。</p><p>  基于Promise对象的自动执行器：Promise 对象。将异步操作包装成 Promise 对象，用 then 方法交回执行权。</p><p>  9、co函数库，用于Generator函数的自动执行。它可以使你不用编写Generator函数的执行器。其原理就是将两种自动执行器（Thunk 函数和 Promise 对象），包装成一个库。使用 co 的前提条件是，Generator 函数的 yield 命令后面，只能是 Thunk 函数或 Promise 对象。</p><p>六、异步编程的终极解决之道：async函数</p><p>  1、概念：一句话，async函数就是Generator函数的语法糖。</p><p>  2、改进点：async函数对Generator函数的改进体现在以下几点：</p><p>  2.1内置执行器</p><p>  Generator 函数的执行必须靠执行器，所以才有了 co 函数库，而 async 函数自带执行器。也就是说，async 函数的执行，与普通函数一模一样，只要一行。</p><p>  2.2更好的语义</p><p>  async 和 await，比起星号和 yield，语义更清楚了。async 表示函数里有异步操作，await 表示紧跟在后面的表达式需要等待结果。</p><p>  2.3更广的适用性</p><p>  co 函数库约定，yield 命令后面只能是 Thunk 函数或 Promise 对象，而 async 函数的 await 命令后面，可以跟 Promise 对象和原始类型的值（数值、字符串和布尔值，但这时等同于同步操作）。所以，async函数的实现，就是把Generator函数和自动执行器包装在一个函数里。</p><p>  2.4返回值是Promise</p><p>  async函数的返回值是 Promise 对象。</p><p>  3、使用手册说明：</p><p>  3.1await命令后面的Promise对象，运行结果可能是rejected，所以最好把await命令放在try…catch中。</p><p>  3.2await命令只能用在async函数中，如果用在普通函数中，就会报错。</p><p>  3.3如有多个请求并发执行，请使用Promise.all方法。</p>]]></content>
+    <content type="html"><![CDATA[<p>一、问题起源：因为JS只有一根线程，因此异步编程对JS很重要。</p><p>二、目的：异步编程的语法目标，就是怎样让它更像同步编程。</p><p>三、很久很久以前：异步编程的方法有四种：</p><p>  1、回调函数；</p><p>  2、事件监听；</p><p>  3、发布/订阅；</p><p>  4、Promise对象。</p><p>四、回调函数的故事：</p><p>  1、概念：JS对异步编程的实现就是回调函数。所谓回调函数，就是把任务的第二段单独写在一个函数里面，等到重新执行这个任务的时候，就直接调用这个函数。</p><p>  2、局限性：回调函数本身没有问题，但是多个回调函数嵌套的时候就会有问题。会导致代码横向发展，而不是纵向发展。称之为回调地狱。</p><p>  3、解决之道：为了解决该问题，Promise诞生了，它不是新的语法功能，而是一种新的写法，允许将回调函数的横向加载改为纵向加载。</p><p>  4、改进的地方：Promise 的写法只是回调函数的改进，使用then方法以后，异步任务的两段执行看得更清楚了，除此以外，并无新意。</p><p>  5、新面临的问题：然后，Promise也面临一个巨大的问题，代码冗余，原来的任务被Promise包装一下，一眼看去都是一堆then，语义变的不清楚。</p><p>五、协程的故事：</p><p>  1、概念：传统的编程语言，早有异步编程的解决方案（其实是多任务的解决方案）。其中有一种叫做”协程”（coroutine），意思是多个线程互相协作，完成异步任务。</p><p>  2、本质：协程的终极奥义就在于yield命令，它表示执行到此处，执行权将交给其他协程。即yield命令是异步两个阶段的分界线。</p><p>  3、协程在ES6中的衍生及其特点：于是乎，Generator函数诞生了。它是协程在ES6中的实现，其最大特点就是可以交出函数的执行权，即暂停执行。整个 Generator 函数就是一个封装的异步任务，或者说是异步任务的容器。异步操作需要暂停的地方，都用 yield 语句注明。</p><p>  4、Generator的另外两个特性：Generator 函数可以暂停执行和恢复执行，这是它能封装异步任务的根本原因。除此之外，它还有两个特性，使它可以作为异步编程的完整解决方案：函数体内外的数据交换和错误处理机制。</p><p>  5、函数体内外数据交换：next 方法返回值的 value 属性，是 Generator 函数向外输出数据；next 方法还可以接受参数，这是向 Generator 函数体内输入数据。</p><p>  6、错误处理机制：Generator 函数内部还可以部署错误处理代码，捕获函数体外抛出的错误。</p><p>  7、Generator函数的局限：</p><p>  7.1不能自动执行</p><p>  7.2程序的执行权移出以后，需要再次交换回来。</p><p>  综上所述：Generator 函数就是一个异步操作的容器。它的自动执行需要一种机制（即自动执行器），当异步操作有了结果，能够自动交回执行权</p><p>  8、两种解决之道：由于Generator函数中的yield 命令用于将程序的执行权移出 Generator 函数，那么就需要一种方法，将执行权再交还给 Generator 函数。</p><p>  基于Thunk函数的自动执行器：回调函数。将异步操作包装成 Thunk 函数，在回调函数里面交回执行权。</p><p>  基于Promise对象的自动执行器：Promise 对象。将异步操作包装成 Promise 对象，用 then 方法交回执行权。</p><p>  9、co函数库，用于Generator函数的自动执行。它可以使你不用编写Generator函数的执行器。其原理就是将两种自动执行器（Thunk 函数和 Promise 对象），包装成一个库。使用 co 的前提条件是，Generator 函数的 yield 命令后面，只能是 Thunk 函数或 Promise 对象。</p><p>六、异步编程的终极解决之道：async函数</p><p>  1、概念：一句话，async函数就是Generator函数的语法糖。</p><p>  2、改进点：async函数对Generator函数的改进体现在以下几点：</p><p>  2.1内置执行器</p><p>  Generator 函数的执行必须靠执行器，所以才有了 co 函数库，而 async 函数自带执行器。也就是说，async 函数的执行，与普通函数一模一样，只要一行。</p><p>  2.2更好的语义</p><p>  async 和 await，比起星号和 yield，语义更清楚了。async 表示函数里有异步操作，await 表示紧跟在后面的表达式需要等待结果。</p><p>  2.3更广的适用性</p><p>  co 函数库约定，yield 命令后面只能是 Thunk 函数或 Promise 对象，而 async 函数的 await 命令后面，可以跟 Promise 对象和原始类型的值（数值、字符串和布尔值，但这时等同于同步操作）。所以，async函数的实现，就是把Generator函数和自动执行器包装在一个函数里。</p><p>  2.4返回值是Promise</p><p>  async函数的返回值是 Promise 对象。</p><p>  3、使用手册说明：</p><p>  3.1await命令后面的Promise对象，运行结果可能是rejected，所以最好把await命令放在try…catch中。</p><p>  3.2await命令只能用在async函数中，如果用在普通函数中，就会报错。</p><p>  3.3如有多个请求并发执行，请使用Promise.all方法。</p><p><a href="http://www.ruanyifeng.com/blog/2015/04/generator.html" target="_blank" rel="noopener">参考链接</a></p>]]></content>
     
     <summary type="html">
     
@@ -137,6 +180,27 @@
     
     
       <category term="异步 Promise Generator async" scheme="http://yoursite.com/tags/%E5%BC%82%E6%AD%A5-Promise-Generator-async/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/11/27/hello-world/"/>
+    <id>http://yoursite.com/2018/11/27/hello-world/</id>
+    <published>2018-11-26T16:17:03.000Z</published>
+    <updated>2018-12-04T07:07:18.095Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
     
   </entry>
   
