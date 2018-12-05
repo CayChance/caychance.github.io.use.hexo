@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2018/12/05/markdown/</loc>
+    
+    <lastmod>2018-12-05T08:29:03.200Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2018/11/29/flex%E5%B8%83%E5%B1%80/</loc>
     
     <lastmod>2018-12-05T08:21:43.628Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>http://yoursite.com/2018/12/04/github%E6%B2%A1%E6%9C%89%E8%AE%B0%E5%BD%95%E4%BD%A0%E7%9A%84contributions/</loc>
     
     <lastmod>2018-12-05T08:20:27.501Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/12/05/markdown/</loc>
-    
-    <lastmod>2018-12-05T08:19:48.830Z</lastmod>
     
   </url>
   
