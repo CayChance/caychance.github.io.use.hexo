@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-05T08:41:45.894Z</updated>
+  <updated>2018-12-06T08:46:33.509Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,64 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>浏览器缓存机制</title>
+    <link href="http://yoursite.com/2018/12/07/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BC%93%E5%AD%98%E6%9C%BA%E5%88%B6/"/>
+    <id>http://yoursite.com/2018/12/07/浏览器缓存机制/</id>
+    <published>2018-12-06T16:43:58.000Z</published>
+    <updated>2018-12-06T08:46:33.509Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="浏览器缓存机制"><a href="#浏览器缓存机制" class="headerlink" title="浏览器缓存机制"></a>浏览器缓存机制</h3><hr><p>这篇文章，就是纯粹的纸上谈兵哈，并没有实践过。所以一定要自己动手试试。</p><p>浏览器的缓存分为两种：强缓存和协商缓存。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;浏览器缓存机制&quot;&gt;&lt;a href=&quot;#浏览器缓存机制&quot; class=&quot;headerlink&quot; title=&quot;浏览器缓存机制&quot;&gt;&lt;/a&gt;浏览器缓存机制&lt;/h3&gt;&lt;hr&gt;
+&lt;p&gt;这篇文章，就是纯粹的纸上谈兵哈，并没有实践过。所以一定要自己动手试试。&lt;/p&gt;
+&lt;p&gt;浏览
+      
+    
+    </summary>
+    
+      <category term="js" scheme="http://yoursite.com/categories/js/"/>
+    
+    
+      <category term="缓存" scheme="http://yoursite.com/tags/%E7%BC%93%E5%AD%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>js event loop</title>
+    <link href="http://yoursite.com/2018/12/06/js-event-loop/"/>
+    <id>http://yoursite.com/2018/12/06/js-event-loop/</id>
+    <published>2018-12-06T15:45:40.000Z</published>
+    <updated>2018-12-06T08:20:37.781Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="JS-Event-Loop"><a href="#JS-Event-Loop" class="headerlink" title="JS Event Loop"></a>JS Event Loop</h3><hr>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;JS-Event-Loop&quot;&gt;&lt;a href=&quot;#JS-Event-Loop&quot; class=&quot;headerlink&quot; title=&quot;JS Event Loop&quot;&gt;&lt;/a&gt;JS Event Loop&lt;/h3&gt;&lt;hr&gt;
+
+      
+    
+    </summary>
+    
+      <category term="js" scheme="http://yoursite.com/categories/js/"/>
+    
+    
+      <category term="event loop" scheme="http://yoursite.com/tags/event-loop/"/>
+    
+  </entry>
+  
+  <entry>
     <title>markdown</title>
     <link href="http://yoursite.com/2018/12/05/markdown/"/>
     <id>http://yoursite.com/2018/12/05/markdown/</id>
     <published>2018-12-05T14:13:45.000Z</published>
-    <updated>2018-12-05T08:41:45.894Z</updated>
+    <updated>2018-12-06T05:11:01.513Z</updated>
     
     <content type="html"><![CDATA[<h3 id="markdown常用语法"><a href="#markdown常用语法" class="headerlink" title="markdown常用语法"></a>markdown常用语法</h3><hr><h4 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h4><ul><li><a href="#1">标题</a></li><li><a href="#2">引入代码</a></li><li><a href="#3">外链</a></li><li><a href="#4">引入图片</a></li><li><a href="#5">引用</a></li><li><a href="#6">缩进</a></li><li><a href="#7">斜体</a></li><li><a href="#8">加粗</a></li><li><a href="#9">分割线</a></li><li><a href="#10">待办</a></li><li><a href="#11目录锚点">目录锚点</a></li><li><a href="#12引入单句代码">引入单句代码</a><br><h4 id="1">1、标题</h4><br>井号#后面空一格<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure></li></ul><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p></p><h4 id="2">2、引入代码</h4><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">add</span>(<span class="params">x,y</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">return</span> x+y;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p></p><p></p><h4 id="3">3、外链</h4><br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">参考链接</span>](<span class="link">https://caychance.github.io/</span>)</span><br></pre></td></tr></table></figure><p></p><p><a href="https://caychance.github.io/" target="_blank" rel="noopener">参考链接</a></p><p></p><h4 id="4">4、引入图片</h4><br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![](https://ws1.sinaimg.cn/large/006tNbRwly1fxq7h427d7j30780c7t9o.jpg)</span><br></pre></td></tr></table></figure><p></p><p><img src="https://ws1.sinaimg.cn/large/006tNbRwly1fxq7h427d7j30780c7t9o.jpg" alt=""></p><p></p><h4 id="5">5、引用</h4><br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;一段引用的话</span><br><span class="line">换行了</span><br></pre></td></tr></table></figure><p></p><blockquote><p>一段引用的话<br>换行了</p></blockquote><p></p><h4 id="6">6、缩进</h4><br>三种方法<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">不带缩进的一行</span><br><span class="line">&amp;nbsp;不断行的空白格或&amp;#160;</span><br><span class="line">&amp;ensp;半方大的空白或&amp;#8194;</span><br><span class="line">&amp;emsp;全方大的空白或&amp;#8195;</span><br></pre></td></tr></table></figure><p></p><p>不带缩进的一行<br>&nbsp;不断行的空白格或&#160;<br>&ensp;半方大的空白或&#8194;<br>&emsp;全方大的空白或&#8195;</p><p></p><h4 id="7">7、斜体</h4><br>两种方法<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="emphasis">_这是斜体_</span></span><br><span class="line"><span class="emphasis">*这是斜体*</span></span><br></pre></td></tr></table></figure><p></p><p><em>这是斜体</em><br><em>这是斜体</em></p><p></p><h4 id="8">8、加粗</h4><br>两种方法<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">__这是斜体__</span></span><br><span class="line"><span class="strong">**这是斜体**</span></span><br></pre></td></tr></table></figure><p></p><p><strong>这是斜体</strong><br><strong>这是斜体</strong></p><p></p><h4 id="9">9、分割线</h4><br>分割线只能标题下使用<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">##### 华丽的分割线</span></span><br><span class="line">---</span><br><span class="line">华丽的分割线</span><br></pre></td></tr></table></figure><p></p><h5 id="华丽的分割线"><a href="#华丽的分割线" class="headerlink" title="华丽的分割线"></a>华丽的分割线</h5><hr><p>华丽的分割线</p><p></p><h4 id="10">10、待办</h4><br>[ ] 前后都要有空格<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>[ ] 不勾选</span><br><span class="line"><span class="bullet">- </span>[x] 勾选</span><br></pre></td></tr></table></figure><p></p><ul><li style="list-style: none"><input type="checkbox"> 不勾选</li><li style="list-style: none"><input type="checkbox" checked> 勾选</li></ul><h4 id="11目录锚点"><a href="#11目录锚点" class="headerlink" title="11目录锚点"></a>11目录锚点</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">* </span>[<span class="string">中国</span>](<span class="link">#中国</span>)</span><br><span class="line">  * [<span class="string">北京</span>](<span class="link">#北京</span>)</span><br><span class="line">  * [<span class="string">陕西</span>](<span class="link">#陕西</span>)</span><br><span class="line"><span class="code">    * [西安](#西安_1)</span></span><br><span class="line"><span class="bullet">* </span>[<span class="string">美国</span>](<span class="link">#美国</span>)</span><br><span class="line">  * [<span class="string">纽约</span>](<span class="link">#纽约</span>)</span><br><span class="line"><span class="bullet">* </span>[<span class="string">俄罗斯</span>](<span class="link">#俄罗斯</span>)</span><br><span class="line">  * [<span class="string">莫斯科</span>](<span class="link">#莫斯科</span>)</span><br><span class="line"><span class="bullet">* </span>[<span class="string">希腊</span>](<span class="link">#希腊</span>)</span><br><span class="line">  * [<span class="string">有些尴尬</span>](<span class="link">#有些尴尬</span>)</span><br></pre></td></tr></table></figure><ul><li><a href="#中国">中国</a><ul><li><a href="#北京">北京</a></li><li><a href="#陕西">陕西</a><ul><li><a href="#西安_1">西安</a></li></ul></li></ul></li><li><a href="#美国">美国</a><ul><li><a href="#纽约">纽约</a></li></ul></li><li><a href="#俄罗斯">俄罗斯</a><ul><li><a href="#莫斯科">莫斯科</a></li></ul></li><li><a href="#希腊">希腊</a><ul><li><a href="#有些尴尬">有些尴尬</a></li></ul></li></ul><p></p><h4 id="西安_1">西安</h4><br>方法一：以标题西安为例。标题加一个id等于目录上西安的锚点西安_1。这种方式锚点中可以有特殊字符。<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;h4 id=西安_1&gt;西安&lt;/h4&gt;</span><br></pre></td></tr></table></figure><p></p><h4 id="纽约"><a href="#纽约" class="headerlink" title="纽约"></a>纽约</h4><p>方法二：以纽约为例。markdown的标题会自动加上锚点。例如下面的锚点自动就是纽约。不过这种方式设置的锚点中不能设置特殊字符。打开开发者模式查看一下元素就明白了。<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">#### 纽约</span></span><br></pre></td></tr></table></figure></p><h4 id="12引入单句代码"><a href="#12引入单句代码" class="headerlink" title="12引入单句代码"></a>12引入单句代码</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">使用<span class="code">`hexo server`</span>启动服务，使用<span class="code">`hexo g`</span>和<span class="code">`hexo d`</span>发布</span><br></pre></td></tr></table></figure><p>使用<code>hexo server</code>启动服务，使用<code>hexo g</code>和<code>hexo d</code>发布</p>]]></content>
     
@@ -35,6 +88,10 @@
     
     </summary>
     
+      <category term="工具" scheme="http://yoursite.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
     
   </entry>
   
@@ -68,7 +125,7 @@
     <link href="http://yoursite.com/2018/12/03/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%B8%B2%E6%9F%93vs%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%B8%B2%E6%9F%93/"/>
     <id>http://yoursite.com/2018/12/03/服务端渲染vs客户端渲染/</id>
     <published>2018-12-02T22:25:08.000Z</published>
-    <updated>2018-12-05T08:20:45.773Z</updated>
+    <updated>2018-12-06T05:11:01.507Z</updated>
     
     <content type="html"><![CDATA[<h3 id="服务端渲染VS客户端渲染"><a href="#服务端渲染VS客户端渲染" class="headerlink" title="服务端渲染VS客户端渲染"></a>服务端渲染VS客户端渲染</h3><hr><p>前几天被人问到了nuxt是啥东西，我就知道这东西是vue的一个衍生品，别的就不知道了。然后吓得我回去赶紧翻开了nuxt的文档。</p><blockquote><p>Nuxt.js 是一个基于Vue.js 的轻量级应用框架，可用来创建服务端渲染(SSR) 应用，也可充当静态站点引擎生成静态站点应用，具有优雅的代码结构分层和热加载等balabala</p></blockquote><p>提到了一个词——服务端渲染，服务端渲染SSR（Server-Side Rendering）是什么？与之相对的是客户端渲染CSR（Client-Side Rendering）。<br>单从字面来理解，服务端渲染，就是服务端来渲染；客户端渲染则是客户端渲染。（这话听着像句废话）</p><h4 id="一、什么是服务端渲染和客户端渲染"><a href="#一、什么是服务端渲染和客户端渲染" class="headerlink" title="一、什么是服务端渲染和客户端渲染"></a>一、什么是服务端渲染和客户端渲染</h4><p>服务端渲染（后端渲染） 简单来说就是在服务器上把数据和模板拼接好以后发送给客户端显示。</p><p>客户端渲染（前端渲染） html 仅仅作为静态文件，客户端在请求时，服务端不做任何处理，直接以原文件的形式返回给客户端，然后客户端根据 html 上的 JavaScript，生成 DOM 插入 html。</p><p>现在常用的SPA单页应用模式，就是典型的前端渲染。</p><h4 id="二、两者的本质区别"><a href="#二、两者的本质区别" class="headerlink" title="二、两者的本质区别"></a>二、两者的本质区别</h4><p>两者本地的区别就是<strong>谁来完成html文件的完整拼接</strong>。如果在后端完成，然后返回给前端，那么就是服务端渲染；否则就是客户端渲染。</p><h4 id="三、服务端渲染的优缺点"><a href="#三、服务端渲染的优缺点" class="headerlink" title="三、服务端渲染的优缺点"></a>三、服务端渲染的优缺点</h4><h5 id="优点："><a href="#优点：" class="headerlink" title="优点："></a>优点：</h5><p>&emsp;1.不占用客户端资源，前端耗时少<br>&emsp;2.有利于SEO</p><h5 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h5><p>&emsp;1.占用服务端资源。如果请求量较多，会对服务器造成一定压力。<br>&emsp;2.不利于前后端分离，开发效率较低。</p><h4 id="四、客户端渲染的优缺点"><a href="#四、客户端渲染的优缺点" class="headerlink" title="四、客户端渲染的优缺点"></a>四、客户端渲染的优缺点</h4><h5 id="优点：-1"><a href="#优点：-1" class="headerlink" title="优点："></a>优点：</h5><p>&emsp;1.前后端分离。<br>&emsp;2.体验更好，接近于原生app。</p><h5 id="缺点：-1"><a href="#缺点：-1" class="headerlink" title="缺点："></a>缺点：</h5><p>&emsp;1.前端响应较慢，首屏加载缓慢。<br>&emsp;2.不利于SEO。</p><h5 id="SEO"><a href="#SEO" class="headerlink" title="SEO"></a>SEO</h5><p>后端渲染html叫吐或者喷，爬虫可以看到完整的呈现源码<br>前端模板渲染html叫填，爬虫看不到完整的呈现源码</p><p><img src="https://ws2.sinaimg.cn/large/006tNbRwly1fxuug2d9gwj316o0gcmy8.jpg" alt=""></p><h4 id="五、如何选择"><a href="#五、如何选择" class="headerlink" title="五、如何选择"></a>五、如何选择</h4><p>不谈业务场景而盲目选择使用何种渲染方式都是耍流氓。比如企业级网站，主要功能是展示而没有复杂的交互，并且需要良好的SEO，则这时我们就需要使用服务器端渲染；而类似后台管理页面，交互性比较强，不需要seo的考虑，那么就可以使用客户端渲染。</p><p>另外，具体使用何种渲染方法并不是绝对的，比如现在一些网站采用了首屏服务器端渲染，即对于用户最开始打开的那个页面采用的是服务器端渲染，这样就保证了渲染速度，而其他的页面采用客户端渲染，这样就完成了前后端分离。</p><h4 id="六、写在最后"><a href="#六、写在最后" class="headerlink" title="六、写在最后"></a>六、写在最后</h4><blockquote><p>2016 年 10 月 25 日，zeit.co 背后的团队对外发布了 Next.js，一个 React 的服务端渲染应用框架。几小时后，与 Next.js 异曲同工，一个基于 Vue.js 的服务端渲染应用框架应运而生，我们称之为：Nuxt.js。</p></blockquote><p>随着Next.js和Nuxt.js的发布，<strong>以前是 Back-end（或者说 Full-stack）工程师负责 SSR，但是现在是 Front-end 工程师负责 SSR 了啊。</strong></p><p>参考文章：<br><a href="https://www.cnblogs.com/zhuzhenwei918/p/8795945.html" target="_blank" rel="noopener">服务器端渲染和客户端渲染</a><br><a href="https://www.jianshu.com/p/3e62641eb381" target="_blank" rel="noopener">也谈服务端渲染（SSR）</a><br><a href="https://jkchao.cn/article/5a11155fb520d115154c8fa1" target="_blank" rel="noopener">服务端渲染 vs 客户端渲染</a><br><a href="https://www.zhihu.com/question/59578433" target="_blank" rel="noopener">为什么现在又流行服务端渲染html？-知乎</a><br><a href="https://blog.csdn.net/b9q8e64lo6mm/article/details/79418969" target="_blank" rel="noopener">为什么现在又流行服务器端渲染html？</a></p>]]></content>
     
@@ -86,11 +143,11 @@
   </entry>
   
   <entry>
-    <title>跨域之http-proxy-middleware</title>
-    <link href="http://yoursite.com/2018/12/03/%E8%B7%A8%E5%9F%9F%E4%B9%8Bhttp-proxy-middleware/"/>
-    <id>http://yoursite.com/2018/12/03/跨域之http-proxy-middleware/</id>
+    <title>跨域</title>
+    <link href="http://yoursite.com/2018/12/03/%E8%B7%A8%E5%9F%9F/"/>
+    <id>http://yoursite.com/2018/12/03/跨域/</id>
     <published>2018-12-02T22:20:50.000Z</published>
-    <updated>2018-12-04T05:10:06.152Z</updated>
+    <updated>2018-12-06T06:01:57.591Z</updated>
     
     <summary type="html">
     
@@ -99,8 +156,6 @@
       <category term="跨域" scheme="http://yoursite.com/categories/%E8%B7%A8%E5%9F%9F/"/>
     
     
-      <category term="http-proxy-middleware" scheme="http://yoursite.com/tags/http-proxy-middleware/"/>
-    
   </entry>
   
   <entry>
@@ -108,7 +163,7 @@
     <link href="http://yoursite.com/2018/12/01/label%E6%A0%87%E7%AD%BE%E8%AF%AD%E4%B9%89%E5%8C%96/"/>
     <id>http://yoursite.com/2018/12/01/label标签语义化/</id>
     <published>2018-11-30T16:17:03.000Z</published>
-    <updated>2018-12-05T08:21:22.510Z</updated>
+    <updated>2018-12-06T05:11:01.511Z</updated>
     
     <content type="html"><![CDATA[<h2 id="label标签的语义化"><a href="#label标签的语义化" class="headerlink" title="label标签的语义化"></a>label标签的语义化</h2><hr><p>今天做一个问卷调研的需求的时候，如下图。用户点击A选项的文字的时候被选中，而不是只能点击A前面的圆圈的时候。</p><p><img src="https://ws4.sinaimg.cn/large/006tNbRwly1fxq5xd2ppyj30j20dyjtt.jpg" alt=""></p><p>html部分，需要使用input+label标签，其中label的for属性和input的id属性使用同一个变量。如下图：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"radio"</span> <span class="attr">:id</span>=<span class="string">"subItem"</span> <span class="attr">class</span>=<span class="string">"checkbox"</span> <span class="attr">v-model</span>=<span class="string">"answers[index]"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">label</span> <span class="attr">:for</span>=<span class="string">"subItem"</span>&gt;</span>&#123;&#123;subItem&#125;&#125;<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br></pre></td></tr></table></figure><p>刚开始用的p标签，一直不好使。后来解决了以后，去搜了一下label标签的语义化</p><blockquote><p>   <label> 标签为 input 元素定义标注（标记）。<br>     label 元素不会向用户呈现任何特殊效果。不过，它为鼠标用户改进了可用性。<br>     如果您在 label 元素内点击文本，就会触发此控件。<br>     就是说，当用户选择该标签时，浏览器就会自动将焦点转到和标签相关的表单控件上。<br>     <label> 标签的 for 属性应当与相关元素的 id 属性相同。</label></label></p></blockquote>]]></content>
     
@@ -125,6 +180,8 @@
       <category term="html" scheme="http://yoursite.com/categories/html/"/>
     
     
+      <category term="label" scheme="http://yoursite.com/tags/label/"/>
+    
   </entry>
   
   <entry>
@@ -132,7 +189,7 @@
     <link href="http://yoursite.com/2018/11/30/%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0%E7%9A%84%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC%E5%92%8C%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0%E7%9A%84%E9%BB%98%E8%AE%A4%E5%80%BC/"/>
     <id>http://yoursite.com/2018/11/30/函数参数的解构赋值和函数参数的默认值/</id>
     <published>2018-11-30T10:58:47.000Z</published>
-    <updated>2018-12-05T08:21:32.775Z</updated>
+    <updated>2018-12-06T05:11:01.515Z</updated>
     
     <content type="html"><![CDATA[<h2 id="es6中函数参数的解构赋值和函数参数的默认值"><a href="#es6中函数参数的解构赋值和函数参数的默认值" class="headerlink" title="es6中函数参数的解构赋值和函数参数的默认值"></a>es6中函数参数的解构赋值和函数参数的默认值</h2><hr><p>昨天在二刷阮一峰es6的时候，看到了一个思考题。</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 写法一</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">m1</span>(<span class="params">&#123;x = <span class="number">0</span>, y = <span class="number">0</span>&#125; = &#123;&#125;</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> [x, y];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 写法二</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">m2</span>(<span class="params">&#123;x, y&#125; = &#123; x: <span class="number">0</span>, y: <span class="number">0</span> &#125;</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> [x, y];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>以上两种写法的差异在哪里？</p><p>写法一中m1函数的入参是一个对象（默认值为一个空对象），该对象有两个属性，x（默认值为0）和y（默认值为0）。</p><p>写法二中m2函数的入参是一个对象（默认值为一个对象，对象x和y属性都为0）。</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 函数没有参数的情况</span></span><br><span class="line">m1() <span class="comment">// [0, 0]</span></span><br><span class="line">m2() <span class="comment">// [0, 0]</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// x 和 y 都有值的情况</span></span><br><span class="line">m1(&#123;<span class="attr">x</span>: <span class="number">3</span>, <span class="attr">y</span>: <span class="number">8</span>&#125;) <span class="comment">// [3, 8]</span></span><br><span class="line">m2(&#123;<span class="attr">x</span>: <span class="number">3</span>, <span class="attr">y</span>: <span class="number">8</span>&#125;) <span class="comment">// [3, 8]</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// x 有值，y 无值的情况</span></span><br><span class="line">m1(&#123;<span class="attr">x</span>: <span class="number">3</span>&#125;) <span class="comment">// [3, 0]</span></span><br><span class="line">m2(&#123;<span class="attr">x</span>: <span class="number">3</span>&#125;) <span class="comment">// [3, undefined]</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// x 和 y 都无值的情况</span></span><br><span class="line">m1(&#123;&#125;) <span class="comment">// [0, 0];</span></span><br><span class="line">m2(&#123;&#125;) <span class="comment">// [undefined, undefined]</span></span><br><span class="line"></span><br><span class="line">m1(&#123;<span class="attr">z</span>: <span class="number">3</span>&#125;) <span class="comment">// [0, 0]</span></span><br><span class="line">m2(&#123;<span class="attr">z</span>: <span class="number">3</span>&#125;) <span class="comment">// [undefined, undefined]</span></span><br></pre></td></tr></table></figure><p><a href="http://es6.ruanyifeng.com/#docs/function" target="_blank" rel="noopener">参考链接-阮一峰es6</a></p>]]></content>
     
@@ -145,7 +202,7 @@
     
     </summary>
     
-      <category term="es6" scheme="http://yoursite.com/categories/es6/"/>
+      <category term="js" scheme="http://yoursite.com/categories/js/"/>
     
     
       <category term="解构  函数参数默认值" scheme="http://yoursite.com/tags/%E8%A7%A3%E6%9E%84-%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0%E9%BB%98%E8%AE%A4%E5%80%BC/"/>
