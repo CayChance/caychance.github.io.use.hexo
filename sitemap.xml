@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/02/01/MongoDB%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/</loc>
+    
+    <lastmod>2019-02-01T03:43:00.431Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/01/26/Vue%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%95%B4%E4%BD%93%E8%AE%A4%E8%AF%86/</loc>
     
-    <lastmod>2019-01-25T15:42:38.433Z</lastmod>
+    <lastmod>2019-01-26T15:17:46.232Z</lastmod>
     
   </url>
   
