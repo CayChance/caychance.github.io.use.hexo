@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/03/09/JSX-in-Vue/</loc>
+    
+    <lastmod>2019-03-31T14:50:04.387Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2018/12/06/js-event-loop/</loc>
     
     <lastmod>2019-03-29T11:48:33.657Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>http://yoursite.com/2019/03/23/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E7%94%A8%E6%A1%86%E6%9E%B6/</loc>
     
     <lastmod>2019-03-26T02:56:57.535Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/03/09/JSX-in-Vue/</loc>
-    
-    <lastmod>2019-03-13T11:12:36.089Z</lastmod>
     
   </url>
   
