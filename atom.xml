@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-04T07:14:46.495Z</updated>
+  <updated>2019-04-12T15:53:48.901Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>面试小记</title>
+    <link href="http://yoursite.com/2019/04/13/%E9%9D%A2%E8%AF%95%E5%B0%8F%E8%AE%B0/"/>
+    <id>http://yoursite.com/2019/04/13/面试小记/</id>
+    <published>2019-04-12T23:53:48.000Z</published>
+    <updated>2019-04-12T15:53:48.901Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>diff算法</title>
@@ -504,28 +518,6 @@
     
     
       <category term="github" scheme="http://yoursite.com/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>服务端渲染vs客户端渲染</title>
-    <link href="http://yoursite.com/2018/12/03/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%B8%B2%E6%9F%93vs%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%B8%B2%E6%9F%93/"/>
-    <id>http://yoursite.com/2018/12/03/服务端渲染vs客户端渲染/</id>
-    <published>2018-12-02T22:25:08.000Z</published>
-    <updated>2018-12-06T05:11:01.507Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="服务端渲染VS客户端渲染"><a href="#服务端渲染VS客户端渲染" class="headerlink" title="服务端渲染VS客户端渲染"></a>服务端渲染VS客户端渲染</h3><hr><p>前几天被人问到了nuxt是啥东西，我就知道这东西是vue的一个衍生品，别的就不知道了。然后吓得我回去赶紧翻开了nuxt的文档。</p><blockquote><p>Nuxt.js 是一个基于Vue.js 的轻量级应用框架，可用来创建服务端渲染(SSR) 应用，也可充当静态站点引擎生成静态站点应用，具有优雅的代码结构分层和热加载等balabala</p></blockquote><p>提到了一个词——服务端渲染，服务端渲染SSR（Server-Side Rendering）是什么？与之相对的是客户端渲染CSR（Client-Side Rendering）。<br>单从字面来理解，服务端渲染，就是服务端来渲染；客户端渲染则是客户端渲染。（这话听着像句废话）</p><h4 id="一、什么是服务端渲染和客户端渲染"><a href="#一、什么是服务端渲染和客户端渲染" class="headerlink" title="一、什么是服务端渲染和客户端渲染"></a>一、什么是服务端渲染和客户端渲染</h4><p>服务端渲染（后端渲染） 简单来说就是在服务器上把数据和模板拼接好以后发送给客户端显示。</p><p>客户端渲染（前端渲染） html 仅仅作为静态文件，客户端在请求时，服务端不做任何处理，直接以原文件的形式返回给客户端，然后客户端根据 html 上的 JavaScript，生成 DOM 插入 html。</p><p>现在常用的SPA单页应用模式，就是典型的前端渲染。</p><h4 id="二、两者的本质区别"><a href="#二、两者的本质区别" class="headerlink" title="二、两者的本质区别"></a>二、两者的本质区别</h4><p>两者本地的区别就是<strong>谁来完成html文件的完整拼接</strong>。如果在后端完成，然后返回给前端，那么就是服务端渲染；否则就是客户端渲染。</p><h4 id="三、服务端渲染的优缺点"><a href="#三、服务端渲染的优缺点" class="headerlink" title="三、服务端渲染的优缺点"></a>三、服务端渲染的优缺点</h4><h5 id="优点："><a href="#优点：" class="headerlink" title="优点："></a>优点：</h5><p>&emsp;1.不占用客户端资源，前端耗时少<br>&emsp;2.有利于SEO</p><h5 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h5><p>&emsp;1.占用服务端资源。如果请求量较多，会对服务器造成一定压力。<br>&emsp;2.不利于前后端分离，开发效率较低。</p><h4 id="四、客户端渲染的优缺点"><a href="#四、客户端渲染的优缺点" class="headerlink" title="四、客户端渲染的优缺点"></a>四、客户端渲染的优缺点</h4><h5 id="优点：-1"><a href="#优点：-1" class="headerlink" title="优点："></a>优点：</h5><p>&emsp;1.前后端分离。<br>&emsp;2.体验更好，接近于原生app。</p><h5 id="缺点：-1"><a href="#缺点：-1" class="headerlink" title="缺点："></a>缺点：</h5><p>&emsp;1.前端响应较慢，首屏加载缓慢。<br>&emsp;2.不利于SEO。</p><h5 id="SEO"><a href="#SEO" class="headerlink" title="SEO"></a>SEO</h5><p>后端渲染html叫吐或者喷，爬虫可以看到完整的呈现源码<br>前端模板渲染html叫填，爬虫看不到完整的呈现源码</p><p><img src="https://ws2.sinaimg.cn/large/006tNbRwly1fxuug2d9gwj316o0gcmy8.jpg" alt></p><h4 id="五、如何选择"><a href="#五、如何选择" class="headerlink" title="五、如何选择"></a>五、如何选择</h4><p>不谈业务场景而盲目选择使用何种渲染方式都是耍流氓。比如企业级网站，主要功能是展示而没有复杂的交互，并且需要良好的SEO，则这时我们就需要使用服务器端渲染；而类似后台管理页面，交互性比较强，不需要seo的考虑，那么就可以使用客户端渲染。</p><p>另外，具体使用何种渲染方法并不是绝对的，比如现在一些网站采用了首屏服务器端渲染，即对于用户最开始打开的那个页面采用的是服务器端渲染，这样就保证了渲染速度，而其他的页面采用客户端渲染，这样就完成了前后端分离。</p><h4 id="六、写在最后"><a href="#六、写在最后" class="headerlink" title="六、写在最后"></a>六、写在最后</h4><blockquote><p>2016 年 10 月 25 日，zeit.co 背后的团队对外发布了 Next.js，一个 React 的服务端渲染应用框架。几小时后，与 Next.js 异曲同工，一个基于 Vue.js 的服务端渲染应用框架应运而生，我们称之为：Nuxt.js。</p></blockquote><p>随着Next.js和Nuxt.js的发布，<strong>以前是 Back-end（或者说 Full-stack）工程师负责 SSR，但是现在是 Front-end 工程师负责 SSR 了啊。</strong></p><p>参考文章：<br><a href="https://www.cnblogs.com/zhuzhenwei918/p/8795945.html" target="_blank" rel="noopener">服务器端渲染和客户端渲染</a><br><a href="https://www.jianshu.com/p/3e62641eb381" target="_blank" rel="noopener">也谈服务端渲染（SSR）</a><br><a href="https://jkchao.cn/article/5a11155fb520d115154c8fa1" target="_blank" rel="noopener">服务端渲染 vs 客户端渲染</a><br><a href="https://www.zhihu.com/question/59578433" target="_blank" rel="noopener">为什么现在又流行服务端渲染html？-知乎</a><br><a href="https://blog.csdn.net/b9q8e64lo6mm/article/details/79418969" target="_blank" rel="noopener">为什么现在又流行服务器端渲染html？</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;服务端渲染VS客户端渲染&quot;&gt;&lt;a href=&quot;#服务端渲染VS客户端渲染&quot; class=&quot;headerlink&quot; title=&quot;服务端渲染VS客户端渲染&quot;&gt;&lt;/a&gt;服务端渲染VS客户端渲染&lt;/h3&gt;&lt;hr&gt;
-&lt;p&gt;前几天被人问到了nuxt是啥东西，我就知道这东西是
-      
-    
-    </summary>
-    
     
   </entry>
   
