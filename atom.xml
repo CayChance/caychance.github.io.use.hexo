@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Chance的个人学习笔记</title>
-  
-  <subtitle>Chance`blog</subtitle>
+  <title>ChanceのBlog</title>
+  <icon>https://www.gravatar.com/avatar/54004b9178f525fba75296a91a94f3f7</icon>
+  <subtitle>Do what you love,Love what you do</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://caychance.github.io/"/>
   <updated>2019-04-12T15:53:48.901Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://caychance.github.io/</id>
   
   <author>
-    <name>[object Object]</name>
-    
+    <name>CayChance</name>
+    <email>chance17610999610@gmail.com</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
     <title>面试小记</title>
-    <link href="http://yoursite.com/2019/04/13/%E9%9D%A2%E8%AF%95%E5%B0%8F%E8%AE%B0/"/>
-    <id>http://yoursite.com/2019/04/13/面试小记/</id>
+    <link href="https://caychance.github.io/2019/04/13/%E9%9D%A2%E8%AF%95%E5%B0%8F%E8%AE%B0/"/>
+    <id>https://caychance.github.io/2019/04/13/面试小记/</id>
     <published>2019-04-12T23:53:48.000Z</published>
     <updated>2019-04-12T15:53:48.901Z</updated>
     
@@ -32,8 +32,8 @@
   
   <entry>
     <title>diff算法</title>
-    <link href="http://yoursite.com/2019/04/03/diff%E7%AE%97%E6%B3%95/"/>
-    <id>http://yoursite.com/2019/04/03/diff算法/</id>
+    <link href="https://caychance.github.io/2019/04/03/diff%E7%AE%97%E6%B3%95/"/>
+    <id>https://caychance.github.io/2019/04/03/diff算法/</id>
     <published>2019-04-02T19:08:09.000Z</published>
     <updated>2019-04-04T07:14:46.495Z</updated>
     
@@ -50,14 +50,14 @@
     </summary>
     
     
-      <category term="diff算法" scheme="http://yoursite.com/tags/diff%E7%AE%97%E6%B3%95/"/>
+      <category term="diff算法" scheme="https://caychance.github.io/tags/diff%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>Vuex笔记</title>
-    <link href="http://yoursite.com/2019/03/29/Vuex%E7%AC%94%E8%AE%B0/"/>
-    <id>http://yoursite.com/2019/03/29/Vuex笔记/</id>
+    <link href="https://caychance.github.io/2019/03/29/Vuex%E7%AC%94%E8%AE%B0/"/>
+    <id>https://caychance.github.io/2019/03/29/Vuex笔记/</id>
     <published>2019-03-28T16:21:30.000Z</published>
     <updated>2019-03-28T11:10:45.859Z</updated>
     
@@ -75,14 +75,14 @@
     </summary>
     
     
-      <category term="Vuex" scheme="http://yoursite.com/tags/Vuex/"/>
+      <category term="Vuex" scheme="https://caychance.github.io/tags/Vuex/"/>
     
   </entry>
   
   <entry>
     <title>Vue原理解析笔记</title>
-    <link href="http://yoursite.com/2019/03/28/Vue%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90%E7%AC%94%E8%AE%B0/"/>
-    <id>http://yoursite.com/2019/03/28/Vue原理解析笔记/</id>
+    <link href="https://caychance.github.io/2019/03/28/Vue%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90%E7%AC%94%E8%AE%B0/"/>
+    <id>https://caychance.github.io/2019/03/28/Vue原理解析笔记/</id>
     <published>2019-03-27T19:09:06.000Z</published>
     <updated>2019-03-27T11:19:56.266Z</updated>
     
@@ -99,17 +99,17 @@
     
     </summary>
     
-      <category term="Vue" scheme="http://yoursite.com/categories/Vue/"/>
+      <category term="Vue" scheme="https://caychance.github.io/categories/Vue/"/>
     
     
-      <category term="Vue原理" scheme="http://yoursite.com/tags/Vue%E5%8E%9F%E7%90%86/"/>
+      <category term="Vue原理" scheme="https://caychance.github.io/tags/Vue%E5%8E%9F%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>为什么要用框架</title>
-    <link href="http://yoursite.com/2019/03/23/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E7%94%A8%E6%A1%86%E6%9E%B6/"/>
-    <id>http://yoursite.com/2019/03/23/为什么要用框架/</id>
+    <link href="https://caychance.github.io/2019/03/23/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E7%94%A8%E6%A1%86%E6%9E%B6/"/>
+    <id>https://caychance.github.io/2019/03/23/为什么要用框架/</id>
     <published>2019-03-22T23:14:00.000Z</published>
     <updated>2019-03-26T02:56:57.535Z</updated>
     
@@ -126,17 +126,17 @@
     
     </summary>
     
-      <category term="框架" scheme="http://yoursite.com/categories/%E6%A1%86%E6%9E%B6/"/>
+      <category term="框架" scheme="https://caychance.github.io/categories/%E6%A1%86%E6%9E%B6/"/>
     
     
-      <category term="框架" scheme="http://yoursite.com/tags/%E6%A1%86%E6%9E%B6/"/>
+      <category term="框架" scheme="https://caychance.github.io/tags/%E6%A1%86%E6%9E%B6/"/>
     
   </entry>
   
   <entry>
     <title>JSX in Vue</title>
-    <link href="http://yoursite.com/2019/03/09/JSX-in-Vue/"/>
-    <id>http://yoursite.com/2019/03/09/JSX-in-Vue/</id>
+    <link href="https://caychance.github.io/2019/03/09/JSX-in-Vue/"/>
+    <id>https://caychance.github.io/2019/03/09/JSX-in-Vue/</id>
     <published>2019-03-08T23:53:26.000Z</published>
     <updated>2019-03-31T14:50:04.387Z</updated>
     
@@ -152,17 +152,17 @@
     
     </summary>
     
-      <category term="JSX" scheme="http://yoursite.com/categories/JSX/"/>
+      <category term="JSX" scheme="https://caychance.github.io/categories/JSX/"/>
     
     
-      <category term="JSX" scheme="http://yoursite.com/tags/JSX/"/>
+      <category term="JSX" scheme="https://caychance.github.io/tags/JSX/"/>
     
   </entry>
   
   <entry>
     <title>docker学习笔记</title>
-    <link href="http://yoursite.com/2019/03/07/docker%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>http://yoursite.com/2019/03/07/docker学习笔记/</id>
+    <link href="https://caychance.github.io/2019/03/07/docker%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://caychance.github.io/2019/03/07/docker学习笔记/</id>
     <published>2019-03-06T19:26:50.000Z</published>
     <updated>2019-03-12T05:56:14.728Z</updated>
     
@@ -178,17 +178,17 @@
     
     </summary>
     
-      <category term="工具" scheme="http://yoursite.com/categories/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="https://caychance.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
+      <category term="docker" scheme="https://caychance.github.io/tags/docker/"/>
     
   </entry>
   
   <entry>
     <title>原型与原型链</title>
-    <link href="http://yoursite.com/2019/02/27/%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE/"/>
-    <id>http://yoursite.com/2019/02/27/原型与原型链/</id>
+    <link href="https://caychance.github.io/2019/02/27/%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE/"/>
+    <id>https://caychance.github.io/2019/02/27/原型与原型链/</id>
     <published>2019-02-26T17:10:20.000Z</published>
     <updated>2019-04-10T06:17:57.354Z</updated>
     
@@ -205,14 +205,14 @@
     </summary>
     
     
-      <category term="js" scheme="http://yoursite.com/tags/js/"/>
+      <category term="js" scheme="https://caychance.github.io/tags/js/"/>
     
   </entry>
   
   <entry>
     <title>MongoDB基础入门</title>
-    <link href="http://yoursite.com/2019/02/01/MongoDB%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/"/>
-    <id>http://yoursite.com/2019/02/01/MongoDB基础入门/</id>
+    <link href="https://caychance.github.io/2019/02/01/MongoDB%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/"/>
+    <id>https://caychance.github.io/2019/02/01/MongoDB基础入门/</id>
     <published>2019-02-01T10:23:29.000Z</published>
     <updated>2019-02-14T06:17:49.234Z</updated>
     
@@ -227,17 +227,17 @@
     
     </summary>
     
-      <category term="工具" scheme="http://yoursite.com/categories/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="https://caychance.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="MongoDB" scheme="http://yoursite.com/tags/MongoDB/"/>
+      <category term="MongoDB" scheme="https://caychance.github.io/tags/MongoDB/"/>
     
   </entry>
   
   <entry>
     <title>Vue项目的整体认识</title>
-    <link href="http://yoursite.com/2019/01/26/Vue%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%95%B4%E4%BD%93%E8%AE%A4%E8%AF%86/"/>
-    <id>http://yoursite.com/2019/01/26/Vue项目的整体认识/</id>
+    <link href="https://caychance.github.io/2019/01/26/Vue%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%95%B4%E4%BD%93%E8%AE%A4%E8%AF%86/"/>
+    <id>https://caychance.github.io/2019/01/26/Vue项目的整体认识/</id>
     <published>2019-01-25T21:08:20.000Z</published>
     <updated>2019-02-16T15:55:27.103Z</updated>
     
@@ -254,14 +254,14 @@
     </summary>
     
     
-      <category term="Vue" scheme="http://yoursite.com/tags/Vue/"/>
+      <category term="Vue" scheme="https://caychance.github.io/tags/Vue/"/>
     
   </entry>
   
   <entry>
     <title>Vuex存储的时候遇到的问题及解决方案</title>
-    <link href="http://yoursite.com/2019/01/23/Vuex%E5%AD%98%E5%82%A8%E7%9A%84%E6%97%B6%E5%80%99%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
-    <id>http://yoursite.com/2019/01/23/Vuex存储的时候遇到的问题及解决方案/</id>
+    <link href="https://caychance.github.io/2019/01/23/Vuex%E5%AD%98%E5%82%A8%E7%9A%84%E6%97%B6%E5%80%99%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    <id>https://caychance.github.io/2019/01/23/Vuex存储的时候遇到的问题及解决方案/</id>
     <published>2019-01-22T19:40:06.000Z</published>
     <updated>2019-01-22T12:19:06.464Z</updated>
     
@@ -279,14 +279,14 @@
     </summary>
     
     
-      <category term="Vuex" scheme="http://yoursite.com/tags/Vuex/"/>
+      <category term="Vuex" scheme="https://caychance.github.io/tags/Vuex/"/>
     
   </entry>
   
   <entry>
     <title>find-记一次生产的bug排查</title>
-    <link href="http://yoursite.com/2019/01/19/find-%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%94%9F%E4%BA%A7%E7%9A%84bug%E6%8E%92%E6%9F%A5/"/>
-    <id>http://yoursite.com/2019/01/19/find-记一次生产的bug排查/</id>
+    <link href="https://caychance.github.io/2019/01/19/find-%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%94%9F%E4%BA%A7%E7%9A%84bug%E6%8E%92%E6%9F%A5/"/>
+    <id>https://caychance.github.io/2019/01/19/find-记一次生产的bug排查/</id>
     <published>2019-01-18T21:14:12.000Z</published>
     <updated>2019-01-18T13:54:29.023Z</updated>
     
@@ -302,17 +302,17 @@
     
     </summary>
     
-      <category term="bug排查" scheme="http://yoursite.com/categories/bug%E6%8E%92%E6%9F%A5/"/>
+      <category term="bug排查" scheme="https://caychance.github.io/categories/bug%E6%8E%92%E6%9F%A5/"/>
     
     
-      <category term="find bug" scheme="http://yoursite.com/tags/find-bug/"/>
+      <category term="find bug" scheme="https://caychance.github.io/tags/find-bug/"/>
     
   </entry>
   
   <entry>
     <title>git学习笔记</title>
-    <link href="http://yoursite.com/2019/01/16/git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>http://yoursite.com/2019/01/16/git学习笔记/</id>
+    <link href="https://caychance.github.io/2019/01/16/git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://caychance.github.io/2019/01/16/git学习笔记/</id>
     <published>2019-01-16T13:52:57.000Z</published>
     <updated>2019-01-18T13:02:15.873Z</updated>
     
@@ -329,17 +329,17 @@
     
     </summary>
     
-      <category term="工具" scheme="http://yoursite.com/categories/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="https://caychance.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="git" scheme="http://yoursite.com/tags/git/"/>
+      <category term="git" scheme="https://caychance.github.io/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>BFC</title>
-    <link href="http://yoursite.com/2019/01/12/BFC/"/>
-    <id>http://yoursite.com/2019/01/12/BFC/</id>
+    <link href="https://caychance.github.io/2019/01/12/BFC/"/>
+    <id>https://caychance.github.io/2019/01/12/BFC/</id>
     <published>2019-01-11T20:31:59.000Z</published>
     <updated>2019-01-18T13:03:31.352Z</updated>
     
@@ -357,14 +357,14 @@
     </summary>
     
     
-      <category term="css" scheme="http://yoursite.com/tags/css/"/>
+      <category term="css" scheme="https://caychance.github.io/tags/css/"/>
     
   </entry>
   
   <entry>
     <title>如何使用七牛云</title>
-    <link href="http://yoursite.com/2019/01/06/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E4%B8%83%E7%89%9B%E4%BA%91/"/>
-    <id>http://yoursite.com/2019/01/06/如何使用七牛云/</id>
+    <link href="https://caychance.github.io/2019/01/06/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E4%B8%83%E7%89%9B%E4%BA%91/"/>
+    <id>https://caychance.github.io/2019/01/06/如何使用七牛云/</id>
     <published>2019-01-05T23:59:38.000Z</published>
     <updated>2019-01-13T10:45:17.217Z</updated>
     
@@ -381,17 +381,17 @@
     
     </summary>
     
-      <category term="工具" scheme="http://yoursite.com/categories/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="https://caychance.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="七牛云" scheme="http://yoursite.com/tags/%E4%B8%83%E7%89%9B%E4%BA%91/"/>
+      <category term="七牛云" scheme="https://caychance.github.io/tags/%E4%B8%83%E7%89%9B%E4%BA%91/"/>
     
   </entry>
   
   <entry>
     <title>js继承方法总结</title>
-    <link href="http://yoursite.com/2018/12/14/js%E7%BB%A7%E6%89%BF%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93/"/>
-    <id>http://yoursite.com/2018/12/14/js继承方法总结/</id>
+    <link href="https://caychance.github.io/2018/12/14/js%E7%BB%A7%E6%89%BF%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93/"/>
+    <id>https://caychance.github.io/2018/12/14/js继承方法总结/</id>
     <published>2018-12-13T20:31:20.000Z</published>
     <updated>2019-03-28T02:25:31.324Z</updated>
     
@@ -409,17 +409,17 @@
     
     </summary>
     
-      <category term="js" scheme="http://yoursite.com/categories/js/"/>
+      <category term="js" scheme="https://caychance.github.io/categories/js/"/>
     
     
-      <category term="继承" scheme="http://yoursite.com/tags/%E7%BB%A7%E6%89%BF/"/>
+      <category term="继承" scheme="https://caychance.github.io/tags/%E7%BB%A7%E6%89%BF/"/>
     
   </entry>
   
   <entry>
     <title>浏览器缓存机制</title>
-    <link href="http://yoursite.com/2018/12/07/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BC%93%E5%AD%98%E6%9C%BA%E5%88%B6/"/>
-    <id>http://yoursite.com/2018/12/07/浏览器缓存机制/</id>
+    <link href="https://caychance.github.io/2018/12/07/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BC%93%E5%AD%98%E6%9C%BA%E5%88%B6/"/>
+    <id>https://caychance.github.io/2018/12/07/浏览器缓存机制/</id>
     <published>2018-12-06T16:43:58.000Z</published>
     <updated>2019-02-15T02:36:29.106Z</updated>
     
@@ -436,17 +436,17 @@
     
     </summary>
     
-      <category term="js" scheme="http://yoursite.com/categories/js/"/>
+      <category term="js" scheme="https://caychance.github.io/categories/js/"/>
     
     
-      <category term="缓存" scheme="http://yoursite.com/tags/%E7%BC%93%E5%AD%98/"/>
+      <category term="缓存" scheme="https://caychance.github.io/tags/%E7%BC%93%E5%AD%98/"/>
     
   </entry>
   
   <entry>
     <title>js event loop</title>
-    <link href="http://yoursite.com/2018/12/06/js-event-loop/"/>
-    <id>http://yoursite.com/2018/12/06/js-event-loop/</id>
+    <link href="https://caychance.github.io/2018/12/06/js-event-loop/"/>
+    <id>https://caychance.github.io/2018/12/06/js-event-loop/</id>
     <published>2018-12-06T15:45:40.000Z</published>
     <updated>2019-03-29T11:48:33.657Z</updated>
     
@@ -463,21 +463,21 @@
     
     </summary>
     
-      <category term="js" scheme="http://yoursite.com/categories/js/"/>
+      <category term="js" scheme="https://caychance.github.io/categories/js/"/>
     
     
-      <category term="event loop" scheme="http://yoursite.com/tags/event-loop/"/>
+      <category term="event loop" scheme="https://caychance.github.io/tags/event-loop/"/>
     
   </entry>
   
   <entry>
     <title>markdown</title>
-    <link href="http://yoursite.com/2018/12/05/markdown/"/>
-    <id>http://yoursite.com/2018/12/05/markdown/</id>
+    <link href="https://caychance.github.io/2018/12/05/markdown/"/>
+    <id>https://caychance.github.io/2018/12/05/markdown/</id>
     <published>2018-12-05T14:13:45.000Z</published>
     <updated>2018-12-06T05:11:01.513Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="markdown常用语法"><a href="#markdown常用语法" class="headerlink" title="markdown常用语法"></a>markdown常用语法</h3><hr><h4 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h4><ul><li><a href="#1">标题</a></li><li><a href="#2">引入代码</a></li><li><a href="#3">外链</a></li><li><a href="#4">引入图片</a></li><li><a href="#5">引用</a></li><li><a href="#6">缩进</a></li><li><a href="#7">斜体</a></li><li><a href="#8">加粗</a></li><li><a href="#9">分割线</a></li><li><a href="#10">待办</a></li><li><a href="#11目录锚点">目录锚点</a></li><li><a href="#12引入单句代码">引入单句代码</a><br><h4 id="1">1、标题</h4><br>井号#后面空一格<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure></li></ul><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p></p><h4 id="2">2、引入代码</h4><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">add</span>(<span class="params">x,y</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">return</span> x+y;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p></p><p></p><h4 id="3">3、外链</h4><br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">参考链接</span>](<span class="link">https://caychance.github.io/</span>)</span><br></pre></td></tr></table></figure><p></p><p><a href="https://caychance.github.io/" target="_blank" rel="noopener">参考链接</a></p><p></p><h4 id="4">4、引入图片</h4><br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![](https://ws1.sinaimg.cn/large/006tNbRwly1fxq7h427d7j30780c7t9o.jpg)</span><br></pre></td></tr></table></figure><p></p><p><img src="https://ws1.sinaimg.cn/large/006tNbRwly1fxq7h427d7j30780c7t9o.jpg" alt></p><p></p><h4 id="5">5、引用</h4><br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;一段引用的话</span><br><span class="line">换行了</span><br></pre></td></tr></table></figure><p></p><blockquote><p>一段引用的话<br>换行了</p></blockquote><p></p><h4 id="6">6、缩进</h4><br>三种方法<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">不带缩进的一行</span><br><span class="line">&amp;nbsp;不断行的空白格或&amp;#160;</span><br><span class="line">&amp;ensp;半方大的空白或&amp;#8194;</span><br><span class="line">&amp;emsp;全方大的空白或&amp;#8195;</span><br></pre></td></tr></table></figure><p></p><p>不带缩进的一行<br>&nbsp;不断行的空白格或&#160;<br>&ensp;半方大的空白或&#8194;<br>&emsp;全方大的空白或&#8195;</p><p></p><h4 id="7">7、斜体</h4><br>两种方法<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="emphasis">_这是斜体_</span></span><br><span class="line"><span class="emphasis">*这是斜体*</span></span><br></pre></td></tr></table></figure><p></p><p><em>这是斜体</em><br><em>这是斜体</em></p><p></p><h4 id="8">8、加粗</h4><br>两种方法<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">__这是斜体__</span></span><br><span class="line"><span class="strong">**这是斜体**</span></span><br></pre></td></tr></table></figure><p></p><p><strong>这是斜体</strong><br><strong>这是斜体</strong></p><p></p><h4 id="9">9、分割线</h4><br>分割线只能标题下使用<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">##### 华丽的分割线</span></span><br><span class="line">---</span><br><span class="line">华丽的分割线</span><br></pre></td></tr></table></figure><p></p><h5 id="华丽的分割线"><a href="#华丽的分割线" class="headerlink" title="华丽的分割线"></a>华丽的分割线</h5><hr><p>华丽的分割线</p><p></p><h4 id="10">10、待办</h4><br>[ ] 前后都要有空格<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>[ ] 不勾选</span><br><span class="line"><span class="bullet">- </span>[x] 勾选</span><br></pre></td></tr></table></figure><p></p><ul><li style="list-style: none"><input type="checkbox"> 不勾选</li><li style="list-style: none"><input type="checkbox" checked> 勾选</li></ul><h4 id="11目录锚点"><a href="#11目录锚点" class="headerlink" title="11目录锚点"></a>11目录锚点</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">* </span>[<span class="string">中国</span>](<span class="link">#中国</span>)</span><br><span class="line">  * [<span class="string">北京</span>](<span class="link">#北京</span>)</span><br><span class="line">  * [<span class="string">陕西</span>](<span class="link">#陕西</span>)</span><br><span class="line"><span class="code">    * [西安](#西安_1)</span></span><br><span class="line"><span class="bullet">* </span>[<span class="string">美国</span>](<span class="link">#美国</span>)</span><br><span class="line">  * [<span class="string">纽约</span>](<span class="link">#纽约</span>)</span><br><span class="line"><span class="bullet">* </span>[<span class="string">俄罗斯</span>](<span class="link">#俄罗斯</span>)</span><br><span class="line">  * [<span class="string">莫斯科</span>](<span class="link">#莫斯科</span>)</span><br><span class="line"><span class="bullet">* </span>[<span class="string">希腊</span>](<span class="link">#希腊</span>)</span><br><span class="line">  * [<span class="string">有些尴尬</span>](<span class="link">#有些尴尬</span>)</span><br></pre></td></tr></table></figure><ul><li><a href="#中国">中国</a><ul><li><a href="#北京">北京</a></li><li><a href="#陕西">陕西</a><ul><li><a href="#西安_1">西安</a></li></ul></li></ul></li><li><a href="#美国">美国</a><ul><li><a href="#纽约">纽约</a></li></ul></li><li><a href="#俄罗斯">俄罗斯</a><ul><li><a href="#莫斯科">莫斯科</a></li></ul></li><li><a href="#希腊">希腊</a><ul><li><a href="#有些尴尬">有些尴尬</a></li></ul></li></ul><p></p><h4 id="西安_1">西安</h4><br>方法一：以标题西安为例。标题加一个id等于目录上西安的锚点西安_1。这种方式锚点中可以有特殊字符。<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">h4</span> <span class="attr">id</span>=<span class="string">西安_1</span>&gt;</span></span>西安<span class="xml"><span class="tag">&lt;/<span class="name">h4</span>&gt;</span></span></span><br></pre></td></tr></table></figure><p></p><h4 id="纽约"><a href="#纽约" class="headerlink" title="纽约"></a>纽约</h4><p>方法二：以纽约为例。markdown的标题会自动加上锚点。例如下面的锚点自动就是纽约。不过这种方式设置的锚点中不能设置特殊字符。打开开发者模式查看一下元素就明白了。<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">#### 纽约</span></span><br></pre></td></tr></table></figure></p><h4 id="12引入单句代码"><a href="#12引入单句代码" class="headerlink" title="12引入单句代码"></a>12引入单句代码</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">使用<span class="code">`hexo server`</span>启动服务，使用<span class="code">`hexo g`</span>和<span class="code">`hexo d`</span>发布</span><br></pre></td></tr></table></figure><p>使用<code>hexo server</code>启动服务，使用<code>hexo g</code>和<code>hexo d</code>发布</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="markdown常用语法"><a href="#markdown常用语法" class="headerlink" title="markdown常用语法"></a>markdown常用语法</h3><hr><h4 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h4><ul><li><a href="#1">标题</a></li><li><a href="#2">引入代码</a></li><li><a href="#3">外链</a></li><li><a href="#4">引入图片</a></li><li><a href="#5">引用</a></li><li><a href="#6">缩进</a></li><li><a href="#7">斜体</a></li><li><a href="#8">加粗</a></li><li><a href="#9">分割线</a></li><li><a href="#10">待办</a></li><li><a href="#11目录锚点">目录锚点</a></li><li><a href="#12引入单句代码">引入单句代码</a><br><h4 id="1">1、标题</h4><br>井号#后面空一格<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure></li></ul><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p></p><h4 id="2">2、引入代码</h4><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">add</span>(<span class="params">x,y</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">return</span> x+y;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p></p><p></p><h4 id="3">3、外链</h4><br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">参考链接</span>](<span class="link">https://caychance.github.io/</span>)</span><br></pre></td></tr></table></figure><p></p><p><a href="https://caychance.github.io/">参考链接</a></p><p></p><h4 id="4">4、引入图片</h4><br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![](https://ws1.sinaimg.cn/large/006tNbRwly1fxq7h427d7j30780c7t9o.jpg)</span><br></pre></td></tr></table></figure><p></p><p><img src="https://ws1.sinaimg.cn/large/006tNbRwly1fxq7h427d7j30780c7t9o.jpg" alt></p><p></p><h4 id="5">5、引用</h4><br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;一段引用的话</span><br><span class="line">换行了</span><br></pre></td></tr></table></figure><p></p><blockquote><p>一段引用的话<br>换行了</p></blockquote><p></p><h4 id="6">6、缩进</h4><br>三种方法<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">不带缩进的一行</span><br><span class="line">&amp;nbsp;不断行的空白格或&amp;#160;</span><br><span class="line">&amp;ensp;半方大的空白或&amp;#8194;</span><br><span class="line">&amp;emsp;全方大的空白或&amp;#8195;</span><br></pre></td></tr></table></figure><p></p><p>不带缩进的一行<br>&nbsp;不断行的空白格或&#160;<br>&ensp;半方大的空白或&#8194;<br>&emsp;全方大的空白或&#8195;</p><p></p><h4 id="7">7、斜体</h4><br>两种方法<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="emphasis">_这是斜体_</span></span><br><span class="line"><span class="emphasis">*这是斜体*</span></span><br></pre></td></tr></table></figure><p></p><p><em>这是斜体</em><br><em>这是斜体</em></p><p></p><h4 id="8">8、加粗</h4><br>两种方法<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">__这是斜体__</span></span><br><span class="line"><span class="strong">**这是斜体**</span></span><br></pre></td></tr></table></figure><p></p><p><strong>这是斜体</strong><br><strong>这是斜体</strong></p><p></p><h4 id="9">9、分割线</h4><br>分割线只能标题下使用<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">##### 华丽的分割线</span></span><br><span class="line">---</span><br><span class="line">华丽的分割线</span><br></pre></td></tr></table></figure><p></p><h5 id="华丽的分割线"><a href="#华丽的分割线" class="headerlink" title="华丽的分割线"></a>华丽的分割线</h5><hr><p>华丽的分割线</p><p></p><h4 id="10">10、待办</h4><br>[ ] 前后都要有空格<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>[ ] 不勾选</span><br><span class="line"><span class="bullet">- </span>[x] 勾选</span><br></pre></td></tr></table></figure><p></p><ul><li style="list-style: none"><input type="checkbox"> 不勾选</li><li style="list-style: none"><input type="checkbox" checked> 勾选</li></ul><h4 id="11目录锚点"><a href="#11目录锚点" class="headerlink" title="11目录锚点"></a>11目录锚点</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">* </span>[<span class="string">中国</span>](<span class="link">#中国</span>)</span><br><span class="line">  * [<span class="string">北京</span>](<span class="link">#北京</span>)</span><br><span class="line">  * [<span class="string">陕西</span>](<span class="link">#陕西</span>)</span><br><span class="line"><span class="code">    * [西安](#西安_1)</span></span><br><span class="line"><span class="bullet">* </span>[<span class="string">美国</span>](<span class="link">#美国</span>)</span><br><span class="line">  * [<span class="string">纽约</span>](<span class="link">#纽约</span>)</span><br><span class="line"><span class="bullet">* </span>[<span class="string">俄罗斯</span>](<span class="link">#俄罗斯</span>)</span><br><span class="line">  * [<span class="string">莫斯科</span>](<span class="link">#莫斯科</span>)</span><br><span class="line"><span class="bullet">* </span>[<span class="string">希腊</span>](<span class="link">#希腊</span>)</span><br><span class="line">  * [<span class="string">有些尴尬</span>](<span class="link">#有些尴尬</span>)</span><br></pre></td></tr></table></figure><ul><li><a href="#中国">中国</a><ul><li><a href="#北京">北京</a></li><li><a href="#陕西">陕西</a><ul><li><a href="#西安_1">西安</a></li></ul></li></ul></li><li><a href="#美国">美国</a><ul><li><a href="#纽约">纽约</a></li></ul></li><li><a href="#俄罗斯">俄罗斯</a><ul><li><a href="#莫斯科">莫斯科</a></li></ul></li><li><a href="#希腊">希腊</a><ul><li><a href="#有些尴尬">有些尴尬</a></li></ul></li></ul><p></p><h4 id="西安_1">西安</h4><br>方法一：以标题西安为例。标题加一个id等于目录上西安的锚点西安_1。这种方式锚点中可以有特殊字符。<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">h4</span> <span class="attr">id</span>=<span class="string">西安_1</span>&gt;</span></span>西安<span class="xml"><span class="tag">&lt;/<span class="name">h4</span>&gt;</span></span></span><br></pre></td></tr></table></figure><p></p><h4 id="纽约"><a href="#纽约" class="headerlink" title="纽约"></a>纽约</h4><p>方法二：以纽约为例。markdown的标题会自动加上锚点。例如下面的锚点自动就是纽约。不过这种方式设置的锚点中不能设置特殊字符。打开开发者模式查看一下元素就明白了。<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">#### 纽约</span></span><br></pre></td></tr></table></figure></p><h4 id="12引入单句代码"><a href="#12引入单句代码" class="headerlink" title="12引入单句代码"></a>12引入单句代码</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">使用<span class="code">`hexo server`</span>启动服务，使用<span class="code">`hexo g`</span>和<span class="code">`hexo d`</span>发布</span><br></pre></td></tr></table></figure><p>使用<code>hexo server</code>启动服务，使用<code>hexo g</code>和<code>hexo d</code>发布</p>]]></content>
     
     <summary type="html">
     
@@ -489,17 +489,17 @@
     
     </summary>
     
-      <category term="工具" scheme="http://yoursite.com/categories/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="https://caychance.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+      <category term="markdown" scheme="https://caychance.github.io/tags/markdown/"/>
     
   </entry>
   
   <entry>
     <title>github没有记录你的contributions?</title>
-    <link href="http://yoursite.com/2018/12/04/github%E6%B2%A1%E6%9C%89%E8%AE%B0%E5%BD%95%E4%BD%A0%E7%9A%84contributions/"/>
-    <id>http://yoursite.com/2018/12/04/github没有记录你的contributions/</id>
+    <link href="https://caychance.github.io/2018/12/04/github%E6%B2%A1%E6%9C%89%E8%AE%B0%E5%BD%95%E4%BD%A0%E7%9A%84contributions/"/>
+    <id>https://caychance.github.io/2018/12/04/github没有记录你的contributions/</id>
     <published>2018-12-04T10:51:31.000Z</published>
     <updated>2018-12-05T08:20:27.501Z</updated>
     
@@ -514,10 +514,10 @@
     
     </summary>
     
-      <category term="工具" scheme="http://yoursite.com/categories/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="https://caychance.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="github" scheme="http://yoursite.com/tags/github/"/>
+      <category term="github" scheme="https://caychance.github.io/tags/github/"/>
     
   </entry>
   
