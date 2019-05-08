@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://caychance.github.io/2019/03/28/Vue%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2019-05-08T09:41:42.324Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://caychance.github.io/2019/04/13/%E9%9D%A2%E8%AF%95%E5%B0%8F%E8%AE%B0/</loc>
     
     <lastmod>2019-05-07T03:46:19.951Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://caychance.github.io/2019/04/27/webpack4-0%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     
     <lastmod>2019-05-03T01:55:15.299Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://caychance.github.io/2019/03/28/Vue%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90%E7%AC%94%E8%AE%B0/</loc>
-    
-    <lastmod>2019-04-29T09:43:10.021Z</lastmod>
     
   </url>
   
